@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Webs>
+  <Web>
+    <Fields>
+      <!-- 
+          http://msdn.microsoft.com/en-us/library/office/aa979575.aspx
+          
+          Publishing HTML: Type="HTML" RichText="TRUE" RichTextMode="ThemeHtml" UnlimitedLengthInDocumentLibrary="TRUE"
+          Publishing Image: Type="Image" RichText="TRUE" RichTextMode="ThemeHtml"
+          HyperLink / Picture: Type="URL" Format="Hyperlink|Image"
+          Choice: Type="Choice" Format="Dropdown|RadioButtons" FillInChoice="TRUE|FALSE" <Default></Default><CHOICES><CHOICE>...</CHOICE></CHOICES>
+          MultiChoice: Type="MultiChoice" FillInChoice="TRUE|FALSE" <Default></Default><CHOICES><CHOICE>...</CHOICE></CHOICES>
+          DateTime: Type="DateTime" Format="DateOnly|DateTime" <Default>[Today]</Default>
+          Single Line of Text: Type="Text"
+          Multiple Lines of Text: Type="Note" NumLines="6"
+          Rich Text: Type="Note" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE|FALSE" NumLines="6" 
+          Number: Type="Number"
+          Person / Group: Type="User|UserMulti" List="UserInfo" UserSelectionMode="0|1" UserSelectionScope="0"
+          
+          0->g            8->o
+          1->h            9->p
+          2->i            a->q
+          3->j            b->r
+          4->k            c->s
+          5->l            d->t
+          6->m            e->u
+          7->n            f->v
+
+        -->
+
+  
+      <!-- Hyperlinks -->
+
+      <Field ID="{816D8FE8-F769-457B-B62B-02BEFDA3D9A5}" 
+              Name='AccessRequestURL'
+              DisplayName='Access Request URL'
+              Type='URL'
+              Format='Hyperlink'
+              Group='PresNet Custom Columns'
+             />
+
+
+      <!-- Booleans -->
+      
+      <Field ID='{F3B4415C-D0F7-4C87-8C91-64BB46A84F59}'
+             Name='AccountRequired'
+             DisplayName='Account Required?'
+             Type='Boolean'
+             Hidden='False'
+             Group='PresNet Custom Columns'>
+             <default>0</default>            
+      </Field>
+
+
+      <Field ID='{6FB0999F-2422-4577-82FB-4AAAF606D261}'
+           Name='FeaturedArticle'
+           DisplayName='Featured Article?'
+           Type='Boolean'
+           Hidden='False'
+           Group='PresNet Custom Columns'>
+            <default>0</default>
+      </Field>
+
+      <Field ID='{316CE2A2-72F4-47DD-A792-D2A26834AD5E}'
+             Name='Archived'
+             DisplayName='Archived?'
+             Type='Boolean'
+             Hidden='False'
+             Group='PresNet Custom Columns'>
+             <default>0</default>
+      </Field>
+
+
+      <!-- Text -->
+      
+      
+      <Field ID='{57B70312-F96D-4143-BA72-6B56D34D074A}'
+        Name='LinkGroup'
+        DisplayName='Link Group'
+        Type='Text'
+        Group='PresNet Custom Columns'
+             />
+      
+      <Field ID='{A74F5CD3-FCAA-4AF8-9C29-2805C10C4C63}'
+        Name='ContactDetails'
+        DisplayName='Contact Details'
+        Type='Note'
+        NumLines='6'
+        Group='PresNet Custom Columns'
+             />
+
+    <!-- Choice  -->
+
+      <Field ID="{DE71BB55-7BD2-4A1C-AA42-0E344C267BDD}"
+           Name="AlertType"
+           DisplayName="Alert Type"
+           Group="PresNet Custom Columns"
+           Required="TRUE"
+           Type="Choice" >
+        <Default>Maintenance</Default>
+        <CHOICES>
+          <CHOICE>Maintenance</CHOICE>
+          <CHOICE>Security</CHOICE>
+        </CHOICES>
+      </Field>
+      
+    
+ 
+
+
+      <!-- Summary Links -->
+      
+      <Field ID="{62940C9F-740A-49C4-92DD-BFC6C74EFA92}"
+          Name="QuickLinks"  
+          DisplayName="Quick Links"
+          Required="FALSE"
+          Type="SummaryLinks"
+              RichText="TRUE"
+           RichTextMode="FullHtml"
+             Group="PresNet Custom Columns"
+          Hidden="FALSE"  />
+
+
+      <!-- Managed Metadata   -->
+
+
+      <Field ID="{965A6871-E22B-4B7A-B4A2-84E4CEE25F93}"
+         Name="NewsSubjectTaxHTField0"  DisplayName="NewsSubject_0"
+         Required="FALSE"
+         Type="Note"
+         Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+
+      <Field ID="{5C039EDD-FDA0-4CDB-8B1B-89E87F8873CB}"
+             Name="NewsSubject"
+             DisplayName="News Subject"
+             Group="PresNet Custom Columns"
+             Required="TRUE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:News Subject}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{965A6871-E22B-4B7A-B4A2-84E4CEE25F93}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      
+    </Fields>
+
+  </Web>
+</Webs>

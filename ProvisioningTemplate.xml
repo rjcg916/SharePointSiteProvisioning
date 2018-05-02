@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:ProvisioningTemplate ID="SharePointPalsDemo" Version="1" xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <pnp:SiteFields>
+    <Field ID="{793F0419-9A72-48D9-B983-91BD359E5387}" Name="MyCustomPNPField" StaticName="MyCustomPNPField" DisplayName="My Custom PNP Field" Type="Note" Required="FALSE" RichText="FALSE" Group="My Custom PNP Fields" />
+  </pnp:SiteFields>
+  <pnp:ContentTypes>
+    <!-- Bookmark ContentTypes -->
+    <pnp:ContentType ID="0x010500C562BA980E1C457B97298CA27EC2C843" Name="MyCustomContentType" Description="Test Description" Group="Custom Group">
+      <pnp:FieldRefs>
+        <pnp:FieldRef ID="793F0419-9A72-48D9-B983-91BD359E5387" Name="MyCustomPNPField" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+  </pnp:ContentTypes>
+</pnp:ProvisioningTemplate>
+

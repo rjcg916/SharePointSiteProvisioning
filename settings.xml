@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<branding xmlns:pnp="http://schemas.dev.office.com/PnP/2015/05/ProvisioningSchema">
+  <termsets>
+    <termset termSetFilePath="TermSetNewsSubject.csv" ></termset>
+    <termset termSetFilePath="TermSetSiteNavigation.csv"></termset>
+  </termsets>
+  <pnp:ContentTypes>
+    <!-- Parent: Link -->  
+    <pnp:ContentType ID="0x010500506409C032FA2E47A9710C5A4FEEF8CF"
+         Name="PresNet Link"
+         Group="PresNet Content Types">
+        <pnp:FieldRefs>
+          <!-- Parent: Title -->
+          <!-- Parent: URL -->       
+          <!-- Parent: Comments -->
+          <!-- Custom: Link Group -->
+          <pnp:FieldRef ID="57B70312-F96D-4143-BA72-6B56D34D074A"  />
+        </pnp:FieldRefs>
+      </pnp:ContentType>
+    <!-- Parent: Item -->
+    <pnp:ContentType ID="0x01008CB6101BA3ABDE4DB3841622C655341F"
+           Name="PresNet Tool"
+           Group="PresNet Content Types">
+      <pnp:FieldRefs>
+        <!-- OOB: Description -->
+        <pnp:FieldRef ID="3f155110-a6a2-4d70-926c-94648101f0e8" />      
+        <!-- Custom: Account Required -->
+        <pnp:FieldRef ID="F3B4415C-D0F7-4C87-8C91-64BB46A84F59" />
+        <!-- Custom: Access Request URL -->
+        <pnp:FieldRef ID="816D8FE8-F769-457B-B62B-02BEFDA3D9A5" />       
+        <!-- Custom: Active -->
+        <pnp:FieldRef ID="41cff327-e2e0-4e59-ac95-34832b6db545" />       
+        <!-- OOB: URL -->
+        <pnp:FieldRef ID="c29e077d-f466-4d8e-8bbe-72b66c5f205c" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Parent: Announcement -->  
+    <pnp:ContentType ID="0x0104003C518FB5D26A3A44BE82BD309BB39C61"
+        Name="PresNet Promotion"
+        Group="PresNet Content Types">
+      <pnp:FieldRefs>
+        <!-- Parent: Body -->
+        <!-- Parent: Expires -->
+        <!-- OOB: URL -->
+        <pnp:FieldRef ID="c29e077d-f466-4d8e-8bbe-72b66c5f205c" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Parent: Item -->   
+    <pnp:ContentType ID="0x010000114F74C79D5346BB0B15B72B0E36AB"
+          Name="PresNet Contact"
+          Group="PresNet Content Types">
+      <pnp:FieldRefs>
+        <!-- OOB: Contact E-mail -->
+        <pnp:FieldRef ID="c79dba91-e60b-400e-973d-c6d06f192720" />
+        <!-- OOB: Contact -->
+        <pnp:FieldRef ID="aea1a4dd-0f19-417d-8721-95a1d28762ab" />
+        <!-- Custom: Contact Details -->
+        <pnp:FieldRef ID="A74F5CD3-FCAA-4AF8-9C29-2805C10C4C63" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Parent: Announcement -->
+    <pnp:ContentType ID="0x01040024ECE30E7778A2468339856D3531C3E2"
+         Name="PresNet Alert"
+         Group="PresNet Content Types">
+      <pnp:FieldRefs>
+        <!-- Parent: Body -->
+        <!-- Parent: Expires -->
+        <!-- Custom: Alert Type -->
+        <pnp:FieldRef ID="DE71BB55-7BD2-4A1C-AA42-0E344C267BDD" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Parent: Welcome Page -->
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4002D6D5476A8CDF84F88D2F3C46B256125"
+     Name="PresNet Welcome Page"
+     Group="PresNet Page Layout Content Types">
+      <pnp:FieldRefs>
+        <!-- OOB: Keywords (multiple) -->
+        <pnp:FieldRef ID="b66e9b50-a28e-469b-b1a0-af0e45486874" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Parent: Article Page -->
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0042D33823CAFBBC42A0481EF145D1F57C"
+          Name="PresNet Article Page"
+          Group="PresNet Page Layout Content Types">
+      <pnp:FieldRefs>
+        <!-- Parent: Page Content -->
+        <!-- Parent: Scheduling Start Date-->
+        <!-- Parent: Scheduling End Date -->
+        <!-- Parent: Contact Name -->
+        <!-- Parent: Page Image -->
+        <!-- Parent: Rollup Image -->
+        <!-- Featured Article? -->
+        <pnp:FieldRef ID="6FB0999F-2422-4577-82FB-4AAAF606D261" />
+        <!-- News Subject -->
+        <pnp:FieldRef ID="5C039EDD-FDA0-4CDB-8B1B-89E87F8873CB" />
+        <!-- Archived? -->
+        <pnp:FieldRef ID="{316CE2A2-72F4-47DD-A792-D2A26834AD5E" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>    
+    <!-- Parent: Web Part Page -->
+    <pnp:ContentType ID="0x010109010011D1E953DA56C740A227C8311A6FC265"
+   Name="PresNet Web Part Page"
+   Group="PresNet Document Content Types">
+      <pnp:FieldRefs>
+        <!-- OOB: Keywords (multiple) -->
+        <pnp:FieldRef ID="b66e9b50-a28e-469b-b1a0-af0e45486874" />
+        <!-- OOB: Browser Title -->
+        <pnp:FieldRef ID="ff92f929-d18b-46d4-9879-521378c689ef" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>  
+</pnp:ContentTypes>
+
+  <files>
+    
+  <!-- Region: Images -->
+  <file name="images\border.png" path="Style Library" folder="PresNet" />
+  <file name="images\ico-flip.jpg" path="Style Library" folder="PresNet" />
+  <file name="images\img-bg.jpg" path="Style Library" folder="PresNet" />
+  <file name="images\img-bubble.png" path="Style Library" folder="PresNet" />
+  <file name="images\img-play.png" path="Style Library" folder="PresNet" />
+  <file name="images\img-triangle-down.png" path="Style Library" folder="PresNet" />
+  <file name="images\img-triangle.png" path="Style Library" folder="PresNet" />
+  <file name="images\logo.png" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\img\glyphicons-halflings-white.png" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\img\glyphicons-halflings.png" path="Style Library" folder="PresNet" />
+  <file name="images\ajax-loader.gif" path="Style Library" folder="PresNet" />
+
+  <!-- EndRegion: Images -->
+  
+  <!-- Region: CSS -->
+  <file name="css\all.css" path="Style Library" folder="PresNet" />
+  <file name="css\all.custom.css" path="Style Library" folder="PresNet" />
+  <file name="css\all.system.css" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\css\font-awesome.min.css" path="Style Library" folder="PresNet" />
+  <file name="default.css" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\css\bootstrap-custom.css" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\css\bootstrap.css" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\css\bootstrap.min.css" path="Style Library" folder="PresNet" />
+<!-- EndRegion: CSS -->
+ 
+  <!-- Region: Fonts -->
+
+  <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.eot" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.svg" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.ttf" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.woff" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.eot" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.svg" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.ttf" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.woff" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.woff2" path="Style Library" folder="PresNet" />
+  <file name="plugins\font-awesome-4.6.3\fonts\FontAwesome.otf" path="Style Library" folder="PresNet" />
+<!-- EndRegion: Fonts -->
+  
+  <!-- Region: Plugins -->
+  <file name="js\knockout-3.3.0.js" path="Style Library" folder="PresNet" />
+  <file name="js\moment.min.js" path="Style Library" folder="PresNet" />
+  <file name="js\masonry.pkgd.min.js" path="Style Library" folder="PresNet" />
+  <file name="js\imagesloaded.pkgd.min.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\jquery\jquery-1.11.3.min.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\js\bootstrap-custom.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\js\bootstrap.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\js\bootstrap.min.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\js\modernizr.2.6.2.custom.min.js" path="Style Library" folder="PresNet" />
+  <file name="plugins\bootstrap3\js\respond.min.js" path="Style Library" folder="PresNet" />
+  <file name="js\moment-timezone.js" path="Style Library" folder="PresNet" />
+  <file name="js\knockout.validation.min.js" path="Style Library" folder="PresNet" />
+<!-- EndRegion: Plugins -->
+  
+  <!-- Region: Custom Javascript -->
+  <file name="js\presnet.app.js" path="Style Library" folder="PresNet" />
+  <file name="js\presnet.common.js" path="Style Library" folder="PresNet" />
+    
+    <!-- EndRegion: Custom Javascript -->
+  
+   <!-- Region: Content Web Part Templates -->
+    <file name="content web parts\Item_Related.html" path="_catalogs/masterpage" folder="Display Templates/PresNet" />
+    <file name="content web parts\Control_Topic.html" path="_catalogs/masterpage" folder="Display Templates/PresNet" />
+    <file name="content web parts\Item_ContentDetailRelated.html" path="_catalogs/masterpage" folder="Display Templates/PresNet" />
+ <!-- EndRegion: Content Web Part Templates -->
+      
+   <!-- Region: Search Templates -->
+    <file name="search\Item_NewsArticle.html" path="_catalogs/masterpage/" folder="Display Templates/PresNet" />
+    <file name="search\Item_NewsArticle_HoverPanel.html" path="_catalogs/masterpage/" folder="Display Templates/PresNet" />
+<!-- EndRegion: Search Templates -->
+      
+   <!-- Region: Filter Templates-->
+    <file name="filters\Filter_EAPSliderBarGraph.html" path="_catalogs/masterpage/" folder="Display Templates/PresNet" />
+ <!-- EndRegion: Filter Templates -->
+    
+  </files>
+
+  <masterpages>
+    <masterpage name="presnet.master" description="PresNet master page" folder="PresNet" setAsMaster="true" setAsSystemMaster="false" />
+    <masterpage name="presnetsystem.master" description="PresNet system master page" folder="PresNet" setAsMaster="false" setAsSystemMaster="true" />
+  </masterpages>
+
+  <htmlPagelayouts>
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPHome.html" title="PresNet Home" description="PresNet Home" 
+                    associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4002D6D5476A8CDF84F88D2F3C46B256125" folderHierarchy="PresNet" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPRightColumnWide.html" title="PresNet Right Column Wide" description="PresNet Right Column Wide" 
+                    associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4002D6D5476A8CDF84F88D2F3C46B256125" folderHierarchy="PresNet" />
+  </htmlPagelayouts>
+
+  <sites>
+    <site web= ""  title = "List Test"  leafUrl="lt"   description = "List Test"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True" lists="pnp:sub-sites-list"></site>
+    <site web= ""  title = "PresNet Search"  leafUrl="search"   description = "PresNet Search"    template ="CMSPUBLISHING#0"    language ="1033"    inheritpermissions="True"    inheritnavigation="True" ></site>
+    <site web= ""  title = "PHS News"  leafUrl="news"   description = "PHS News"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web= ""  title = "Human Resources"  leafUrl="hr"   description = "Human Resources"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web= "hr"  title = "Human Resources News"  leafUrl="news"   description = "Human Resources News"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="True"    inheritNavigation="True"></site>
+    <site web= ""  title = "PHS Culture"  leafUrl="culture"   description = "PHS Culture"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web= ""  title = "PHS Learning"  leafUrl="learning"   description = "PHS Learning"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web= ""  title = "PHS Clinical"  leafUrl="clinical"   description = "PHS Clinical"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web= ""  title = "PHS Roles"  leafUrl="roles"   description = "PHS Roles"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="True"    inheritNavigation="True"></site>
+    <site web = "roles"  title = "For New Employees"  leafUrl="new-employees"   description = "For New Employees"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions ="False"    inheritNavigation="True"></site>
+    <site web = "roles"  title = "For Leaders"  leafUrl="leaders"   description = "For leaders"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web = ""  title = "PMG"  leafUrl="pmg"   description = "Presbyterian Medical Group"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web = ""  title = "PHP"  leafUrl="php"   description = "Presbyterian Health Plan"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="False"    inheritNavigation="True"></site>
+    <site web = ""  title = "PHS Facilities"  leafUrl="facilities"   description = "PHS Facilities"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="True"    inheritNavigation="True"></site>
+    <site web = ""  title = "PHS Departments"  leafUrl="depts"   description = "PHS Departements"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions="True"    inheritNavigation="True"></site>
+    <site web = "depts"  title = "Presbyterian Customer Service Center"  leafUrl="pcsc"   description = "Presbyterian Customer Service Center"    template ="CMSPUBLISHING#0"    language ="1033"    inheritPermissions ="False"    inheritNavigation = "True"></site>  
+  </sites>
+
+ <pnp:sub-site-lists>
+    <pnp:ListInstance Title="PresNet Link" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x010500506409C032FA2E47A9710C5A4FEEF8CF" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:DataRows>
+        <pnp:DataRow Title="Test" URL="http://www.google.com"  Comments="Test Comment" LinkGroup="Group1" />
+     </pnp:DataRows>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Solution Directory" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC06" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC09" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC07" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC10" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC08" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="System Updates" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x010052ACBE079D914585813038F4E581C9BD" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:DataRows>
+        <pnp:DataRow Title="Test System Update" StartDate="10/1/2015" EndDate="10/30/2015" RoutingRuleDescription="This is a test event." EventDuration="1 Hour" />
+      </pnp:DataRows>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Polls" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC11" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Poll Answers" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100065B914C81794FC6BC24042100C9BD09" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:IndexedColumns>
+        <pnp:IndexedColumn Name="UserKey" />
+        <pnp:IndexedColumn Name="PollId" />
+      </pnp:IndexedColumns>
+    </pnp:ListInstance>
+  </pnp:sub-site-lists>
+
+  <pnp:PublishingPages>
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/search" name="A-Z-Index" title="A-Z Index" layout="ArticleLeft.aspx" overwrite="true" />
+  </pnp:PublishingPages>
+
+</branding>

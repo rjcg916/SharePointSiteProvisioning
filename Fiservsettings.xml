@@ -1,0 +1,2699 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<branding xmlns:pnp="http://schemas.dev.office.com/PnP/2015/05/ProvisioningSchema">
+  <files>
+    <!-- Images -->
+    <file name="images\border.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\ico-flip.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img-bg.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img-bubble.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img-play.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img-triangle-down.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img-triangle.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img1.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img10.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img11.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img12.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img13.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img14.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img15.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img16.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img17.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img18.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img19.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img2.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img20.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img21.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img22.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img23.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img24.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img25.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img26.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img27.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img3.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img4.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img5.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img6.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img7.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img8.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\img9.jpg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\logo.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\mobilelogo.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\logo1.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\logo2.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\logo3.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\menuRightArrow.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\menuRightArrow_h.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\menuUpArrow_h.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\menuDownArrow.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\mobileDown.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\mobileUp.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\sprite.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\favicon.ico" path="Style Library" folder="Fiserv.EAP" />
+    <file name="logo.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\img\glyphicons-halflings-white.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\img\glyphicons-halflings.png" path="Style Library" folder="Fiserv.EAP" />
+    <file name="images\ajax-loader.gif" path="Style Library" folder="Fiserv.EAP" />
+
+    <!-- CSS -->
+    <file name="css\all.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="css\all.custom.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="css\all.system.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\css\font-awesome.min.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="default.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\css\bootstrap-custom.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\css\bootstrap.css" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\css\bootstrap.min.css" path="Style Library" folder="Fiserv.EAP" />
+
+    <!-- Fonts -->
+    <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.eot" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.svg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.ttf" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\fonts\glyphicons-halflings-regular.woff" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.eot" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.svg" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.ttf" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.woff" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\fontawesome-webfont.woff2" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\font-awesome-4.6.3\fonts\FontAwesome.otf" path="Style Library" folder="Fiserv.EAP" />
+
+    <!-- Plugins -->
+    <file name="js\knockout-3.3.0.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\moment.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\masonry.pkgd.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\imagesloaded.pkgd.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\jquery\jquery-1.11.3.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\js\bootstrap-custom.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\js\bootstrap.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\js\bootstrap.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\js\modernizr.2.6.2.custom.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="plugins\bootstrap3\js\respond.min.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\moment-timezone.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\knockout.validation.min.js" path="Style Library" folder="Fiserv.EAP" />
+
+    <!-- Custom Javascript -->
+    <file name="js\fiserv.app.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.newsFeed.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.eventsFeed.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.common.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.promotedlinks.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.promotedContent.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.stock.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.carousel.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.mylinks.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.buLanding.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.locationLanding.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.locationListing.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.locationInfo.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.cryptJsonpAjaxService.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.myapplications.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.myprofilenavigation.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.systemupdate.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.navigation.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.mylinks.ui.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.ribbon.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.productLanding.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.solutions.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.poll.js" path="Style Library" folder="Fiserv.EAP" />
+    <file name="js\fiserv.solutionIndex.js" path="Style Library" folder="Fiserv.EAP" />
+
+    <!-- Content Web Part Templates -->
+    <file name="content web parts\Item_LivingProof.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Control_LivingProof.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_Related.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_EventRelated.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Control_LocationEvent.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_LocationEvent.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Control_Topic.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_Topic.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_LocationListing.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_BUArticle.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Control_BUArticle.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_ContentDetailRelated.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_SolutionArticleRelated.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_SolutionCollateral.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_RelatedSolutionSets.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_RelatedProducts.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_AllRelatedProducts.html" path="_catalogs/masterpage" folder="Display Templates" />
+    <file name="content web parts\Item_AllRelatedSolutionSets.html" path="_catalogs/masterpage" folder="Display Templates" />
+
+    <!-- Search Templates -->
+    <file name="search\Item_NewsArticle.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_NewsArticle_HoverPanel.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_Event.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPSearchResults.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPNewsLanding.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPEventsLanding.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPBUAll.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_BUArticle.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_LocationListing.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_SolutionCollateral.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPCollateralResults.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_EAPLink.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_EAPNews.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_FiservEmp.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_FiservEmp_HoverPanel.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_EAPBlank.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Control_EAPProductSearchResults.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="search\Item_EAPSolution.html" path="_catalogs/masterpage/" folder="Display Templates" />
+
+    <!-- Filter Templates-->
+    <file name="filters\Filter_EAPSliderBarGraph.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="filters\Filter_EAPPerson.html" path="_catalogs/masterpage/" folder="Display Templates" />
+    <file name="filters\Filter_EAPBusinessUnit.html" path="_catalogs/masterpage/" folder="Display Templates" />
+  </files>
+  <masterpages>
+    <masterpage name="eap.master" description="EAP master page" folder="Fiserv.EAP" setAsMaster="true" setAsSystemMaster="false" />
+    <masterpage name="eapsystem.master" description="EAP system master page" folder="Fiserv.EAP" setAsMaster="false" setAsSystemMaster="true" />
+  </masterpages>
+  <htmlPagelayouts>
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPHome.html" title="EAP Home" description="EAP Home" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPNewsArticleLeftColumnWide.html" title="EAP News Article Page" description="EAP News Article Page Left Column Wide" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA9201" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPInternalEventLeftColumnWide.html" title="EAP Internal Event Page" description="EAP Internal Event Page Left Column Wide" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPExternalEventLeftColumnWide.html" title="EAP External Event Page" description="EAP External Event Page Left Column Wide" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPRightColumnWide.html" title="EAP Right Column Wide" description="EAP Right Column Wide" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSimple.html" title="(Obsolete)EAP Simple" description="(Obsolete)EAP Simple" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSimplev2.html" title="EAP Simple" description="EAP Simple" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPNewsLanding.html" title="EAP News Landing" description="EAP News Landing" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPEventsLanding.html" title="EAP Events Landing" description="EAP Events Landing" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSearchResults.html" title="EAP Search Results" description="EAP Search Results" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPFiservProudLanding.html" title="(Obsolete)EAP Fiserv Proud Landing" description="(Obsolete)EAP Fiserv Proud Landing" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPFiservProudLandingv2.html" title="EAP Fiserv Proud Landing" description="EAP Fiserv Proud Landing" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPFiservProudTopic.html" title="(Obsolete)EAP Fiserv Proud Topic" description="(Obsolete)EAP Fiserv Proud Topic" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPOrangeToolboxTopic.html" title="(Obsolete)EAP Orange Toolbox Topic" description="(Obsolete)EAP Orange Toolbox Topic" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPOrangeToolboxTopicv2.html" title="EAP Orange Toolbox Topic" description="EAP Orange Toolbox Topic" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPTopic.html" title="(Obsolete)EAP Topic" description="(Obsolete)EAP Topic" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPTopicv2.html" title="EAP Topic" description="EAP Topic" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPBULandingPage.html" title="EAP BU Landing Page" description="EAP BU Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D40037f55E71648840FF9320C64C38A54178" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPBUAllPage.html" title="EAP BU All Page" description="EAP BU All Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D40037f55E71648840FF9320C64C38A54178" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPLocationLandingPage.html" title="EAP Location Landing Page" description="EAP Location Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D400B346960B58D144CD838A7BF30CB62189" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPLocationAllPage.html" title="EAP Location All Page" description="EAP Location Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D400B346960B58D144CD838A7BF30CB62189" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPContentPage.html" title="EAP Content Page" description="EAP Content Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPLocationListingPage.html" title="EAP Location Listing Page" description="EAP Location Listing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPLocationSearchResults.html" title="EAP Location Search Results" description="EAP Location Search Results" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPPeopleSearchResults.html" title="EAP People Search Results" description="EAP People Search Results" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSubNavLandingPage.html" title="EAP SubNav Landing Page" description="EAP SubNav Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPPeopleAtLocation.html" title="EAP People At Location Page" description="EAP SubNav Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSolutionArticlePage.html" title="EAP Solution Article Page" description="EAP Solution Article Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSolutionArticleSearchResults.html" title="EAP Solution Article Search Results" description="EAP Solution Article Search Results" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPIESubNavPage.html" title="Innovation and Expertise Sub Nav Page" description="Innovation and Expertise Sub Nav Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSolution.html" title="EAP Solution Page" description="EAP Solution Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPSolutionIndex.html" title="EAP Solution Index Page" description="EAP Solution Index Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" folderHierarchy="Fiserv.EAP" />
+    <htmlPagelayout sourceFilePath="branding\pagelayouts\EAPLocationEventsLanding.html" title="EAP Location Events Landing Page" description="EAP Location Events Landing Page" associatedContentTypeID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D40082811AACEFD34FDCBFC93052445D0976" folderHierarchy="Fiserv.EAP" />
+  </htmlPagelayouts>
+  <pnp:lists>
+    <pnp:ListInstance Title="Promoted Links" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x01050087E353F177A3460E93CB400C40D3E93D05" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:DataRows>
+        <pnp:DataRow Title="Workday" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img11.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Workday" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Benefits &amp; Wellness" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img12.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Benefits &amp; Wellness" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Learning &amp; Development" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img13.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Learning &amp; Development" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Color Me Orange" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img14.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Color Me Orange" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Leadership Proof" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img15.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Leadership Proof" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Travel &amp; Expense" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img16.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Travel &amp; Expense" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+        <pnp:DataRow Title="Leadership Chat Room" URL="http://www.google.com" EAPContentOwner="{currentuser}" Graphic="{sitecollectionurl}/Style Library/Fiserv.EAP/images/img17.jpg" ReviewDate="9/17/2015" RoutingRuleDescription="Leadership Chat Room" RoutingEnabled="True" TargetLocations="All" TargetBusinessUnits="All" />
+      </pnp:DataRows>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Solution Directory" WebUrl="{sitecollectionurl}/solutions" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC06" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC09" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC07" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC10" Default="true">
+        </pnp:ContentTypeBinding>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC08" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="System Updates" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x010052ACBE079D914585813038F4E581C9BD" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:DataRows>
+        <pnp:DataRow Title="Test System Update" StartDate="10/1/2015" EndDate="10/30/2015" RoutingRuleDescription="This is a test event." EventDuration="1 Hour" />
+      </pnp:DataRows>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Polls" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100D25828C615644ABAA0BE74D1685338FC11" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+    </pnp:ListInstance>
+    <pnp:ListInstance Title="Poll Answers" TemplateType="{listtemplatetype:GenericList}" RemoveExistingContentTypes="true">
+      <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x0100065B914C81794FC6BC24042100C9BD09" Default="true">
+        </pnp:ContentTypeBinding>
+      </pnp:ContentTypeBindings>
+      <pnp:IndexedColumns>
+        <pnp:IndexedColumn Name="UserKey" />
+        <pnp:IndexedColumn Name="PollId" />
+      </pnp:IndexedColumns>
+    </pnp:ListInstance>
+  </pnp:lists>
+  <pnp:ContentTypes>
+    <!-- Documents -->
+    <pnp:ContentType ID="0x0101009189AB5D3D2647B580F011DA2F356FB3"
+         Name="EAP Base Document"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" />
+        <!-- Sub Heading -->
+        <pnp:FieldRef ID="{458c840f-19b8-436f-89f7-f97dd2a6f477}" />
+      </pnp:FieldRefs>  
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0101009189AB5D3D2647B580F011DA2F356FB301"
+         Name="EAP Document"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" Hidden="true" Required="false" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0101009189AB5D3D2647B580F011DA2F356FB302"
+         Name="EAP Solution Document"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- Collateral Type -->
+        <pnp:FieldRef ID="{406D3097-68DC-416E-98E7-AC5F5E211549}" />
+        <!-- Data Classification -->
+        <pnp:FieldRef ID="{713c31bb-84dc-4f3c-b512-de4a29f105c8}" Hidden="false" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0101009189AB5D3D2647B580F011DA2F356FB303"
+         Name="EAP Sales Tool Document"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+        <!-- Collateral Type -->
+        <pnp:FieldRef ID="{406D3097-68DC-416E-98E7-AC5F5E211549}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Links -->
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D"
+         Name="EAP Base Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" Required="false" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" Hidden="true" Required="false" />
+        <!-- Sub-heading -->
+        <pnp:FieldRef ID="{458C840F-19B8-436F-89F7-F97DD2A6F477}" Required="false" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D01"
+         Name="EAP Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D02"
+         Name="EAP Location Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D03"
+         Name="EAP Solution Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- EAP Link Type -->
+        <pnp:FieldRef ID="{B0FCB3E3-E31B-4C89-B14C-EAC41B09E2B3}" />
+        <!-- Collateral Type -->
+        <pnp:FieldRef ID="{406D3097-68DC-416E-98E7-AC5F5E211549}" />
+        <!-- Data Classification -->
+        <pnp:FieldRef ID="{713c31bb-84dc-4f3c-b512-de4a29f105c8}" Hidden="false" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D04"
+         Name="EAP Solution Sales Tool Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x01050087E353F177A3460E93CB400C40D3E93D05"
+         Name="EAP Promoted Link"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Required="true" Hidden="false" />        
+        <!-- URL -->
+        <pnp:FieldRef ID="{c29e077d-f466-4d8e-8bbe-72b66c5f205c}" />        
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" Required="false" />
+        <!-- Graphic -->
+        <pnp:FieldRef ID="{05e06a23-fadd-4cfd-af70-2a5bc61dd0b6}" Required="true" />
+        <!-- Is Active -->
+        <pnp:FieldRef ID="{3c4e7a5b-b7d5-4779-a14a-490803e63923}" Required="true" />
+        <!-- Open in Child Window -->
+        <pnp:FieldRef ID="{36b39bb8-bad6-4e1b-b458-cca36cb3e407}" Required="true" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Picture -->
+    <pnp:ContentType ID="0x010102007BA48E3725304D5DBD913B97A5178788"
+         Name="EAP Base Picture"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010102007BA48E3725304D5DBD913B97A517878801"
+         Name="EAP Picture"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010102007BA48E3725304D5DBD913B97A517878802"
+         Name="Solution Picture"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010102007BA48E3725304D5DBD913B97A517878803"
+         Name="Sales Tool Picture"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Pages -->
+    <pnp:ContentType ID="0x01010901000C920FEDE5C4474F9A12A2CE3094D77C"
+         Name="EAP Web Part Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0101090100CC0926A48B5E4E17AF701C02FB7E67F5"
+         Name="Solution Web Part Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Audiences -->
+        <pnp:FieldRef ID="{61cbb965-1e04-4273-b658-eedaa662f48d}" />        
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D400DF703405F62B49F0850EB62BB599522A"
+         Name="EAP Welcome Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D40037f55E71648840FF9320C64C38A54178"
+         Name="EAP BUCF Landing Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" Required="true" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" Required="true" />
+        <!-- Target Tag -->
+        <pnp:FieldRef ID="{340c490f-c019-49e2-abc1-1cf65b5b78ea}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E4"
+         Name="EAP Content Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" Required="true" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" Required="true" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" Required="true" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+        <!-- SubHeading -->
+        <pnp:FieldRef ID="{458C840F-19B8-436F-89F7-F97DD2A6F477}" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{5b94c668-ab2f-4858-9a3a-f17b652b85dc}" />
+        <!-- Contact Email -->
+        <pnp:FieldRef ID="{9817d38a-49c5-4562-8dd0-8ccfafa5d206}" />
+        <!-- PublishingPageContent -->
+        <pnp:FieldRef ID="{f55c4d88-1f2e-4ad9-aaa8-819af4ee7ee8}" Required="true" />
+        <!-- Audience -->
+        <pnp:FieldRef ID="{61cbb965-1e04-4273-b658-eedaa662f48d}" Hidden="true" Required="false" />
+        <!-- SummaryLinks -->
+        <pnp:FieldRef ID="{b3525efe-59b5-4f0f-b1e4-6e26cb6ef6aa}" Hidden="true" Required="false" />
+        <!-- SummaryLinks2 -->
+        <pnp:FieldRef ID="{27761311-936a-40ba-80cd-ca5e7a540a36}" Hidden="true" Required="false" />
+        <!-- SeoMetaDescription -->
+        <pnp:FieldRef ID="{d83897e5-2430-4df7-8e5a-9bc06c664992}" Hidden="true" Required="false" />
+        <!-- SeoKeywords -->
+        <pnp:FieldRef ID="{45ae2169-585c-440b-aa4c-1d5e981fbbe5}" Hidden="true" Required="false" />
+        <!-- Comments -->
+        <pnp:FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Hidden="true" Required="false" />
+        <!-- PublishingStartDate -->
+        <pnp:FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}" Hidden="true" Required="false" />
+        <!-- PublishingExpirationDate -->
+        <pnp:FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}" Hidden="true" Required="false" />
+        <!-- PublishingContact -->
+        <pnp:FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" Hidden="true" Required="false" />
+        <!-- PublishingContactPicture -->
+        <pnp:FieldRef ID="{dc47d55f-9bf9-494a-8d5b-e619214dd19a}" Hidden="true" Required="false" />
+        <!-- PublishingPageImage -->
+        <pnp:FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- PublishingRollupImage -->
+        <pnp:FieldRef ID="{543bc2cf-1f30-488e-8f25-6fe3b689d9ac}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- PublishingContactEmail -->
+        <pnp:FieldRef ID="{c79dba91-e60b-400e-973d-c6d06f192720}" Hidden="true" Required="false" />
+        <!-- PublishingContactName -->
+        <pnp:FieldRef ID="{7546ad0d-6c33-4501-b470-fb3003ca14ba}" Hidden="true" Required="false" />
+        <!-- PublishingIsFurlPage -->
+        <pnp:FieldRef ID="{50631c24-1371-4ecf-a5ae-ed41b03f4499}" Hidden="true" Required="false" />
+        <!-- RobotsNoIndex -->
+        <pnp:FieldRef ID="{325c00dd-fd91-468b-81cf-5bb9951abba1}" Hidden="true" Required="false" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5"
+      Name="EAP Solution Article Page"
+      Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" Required="true" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" Required="true" />
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" Required="true" />
+        <!-- SubHeading -->
+        <pnp:FieldRef ID="{458C840F-19B8-436F-89F7-F97DD2A6F477}" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{5b94c668-ab2f-4858-9a3a-f17b652b85dc}" />
+        <!-- Contact Email -->
+        <pnp:FieldRef ID="{9817d38a-49c5-4562-8dd0-8ccfafa5d206}" />
+        <!-- PublishingPageContent -->
+        <pnp:FieldRef ID="{f55c4d88-1f2e-4ad9-aaa8-819af4ee7ee8}" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+        <!-- Collateral Type -->
+        <pnp:FieldRef ID="{406D3097-68DC-416E-98E7-AC5F5E211549}" Required="true" />
+        <!-- Audience -->
+        <pnp:FieldRef ID="{61cbb965-1e04-4273-b658-eedaa662f48d}" Hidden="true" Required="false" />
+        <!-- SummaryLinks -->
+        <pnp:FieldRef ID="{b3525efe-59b5-4f0f-b1e4-6e26cb6ef6aa}" Hidden="true" Required="false" />
+        <!-- SummaryLinks2 -->
+        <pnp:FieldRef ID="{27761311-936a-40ba-80cd-ca5e7a540a36}" Hidden="true" Required="false" />
+        <!-- SeoMetaDescription -->
+        <pnp:FieldRef ID="{d83897e5-2430-4df7-8e5a-9bc06c664992}" Hidden="true" Required="false" />
+        <!-- SeoKeywords -->
+        <pnp:FieldRef ID="{45ae2169-585c-440b-aa4c-1d5e981fbbe5}" Hidden="true" Required="false" />
+        <!-- Comments -->
+        <pnp:FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Hidden="true" Required="false" />
+        <!-- PublishingStartDate -->
+        <pnp:FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}" Hidden="true" Required="false" />
+        <!-- PublishingExpirationDate -->
+        <pnp:FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}" Hidden="true" Required="false" />
+        <!-- PublishingContact -->
+        <pnp:FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" Hidden="true" Required="false" />
+        <!-- PublishingContactPicture -->
+        <pnp:FieldRef ID="{dc47d55f-9bf9-494a-8d5b-e619214dd19a}" Hidden="true" Required="false" />
+        <!-- PublishingPageImage -->
+        <pnp:FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- PublishingRollupImage -->
+        <pnp:FieldRef ID="{543bc2cf-1f30-488e-8f25-6fe3b689d9ac}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- SeoBrowserTitle -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- PublishingContactEmail -->
+        <pnp:FieldRef ID="{c79dba91-e60b-400e-973d-c6d06f192720}" Hidden="true" Required="false" />
+        <!-- PublishingContactName -->
+        <pnp:FieldRef ID="{7546ad0d-6c33-4501-b470-fb3003ca14ba}" Hidden="true" Required="false" />
+        <!-- PublishingIsFurlPage -->
+        <pnp:FieldRef ID="{50631c24-1371-4ecf-a5ae-ed41b03f4499}" Hidden="true" Required="false" />
+        <!-- RobotsNoIndex -->
+        <pnp:FieldRef ID="{325c00dd-fd91-468b-81cf-5bb9951abba1}" Hidden="true" Required="false" />
+        <!-- Data Classification -->
+        <pnp:FieldRef ID="{713c31bb-84dc-4f3c-b512-de4a29f105c8}" Hidden="false" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D400B346960B58D144CD838A7BF30CB62189"
+         Name="EAP Location Landing Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" Required="true" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" Required="true" />
+        <!-- Target Tag Location -->
+        <pnp:FieldRef ID="{13dc392c-c186-430c-9e6d-8309ce929c81}" />
+        <!-- Location ID -->
+        <pnp:FieldRef ID="{1c745951-0291-47a9-95ac-6b717048aba4}" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D40082811AACEFD34FDCBFC93052445D0976"
+         Name="EAP Location Events Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" Required="true" />
+        <!-- Target Tag Location -->
+        <pnp:FieldRef ID="{13dc392c-c186-430c-9e6d-8309ce929c81}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0091BAFF8188FB4885955F58D663D140AD"
+         Name="Solution Welcome Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00F7177F5754054BFBA181B14D88523261"
+         Name="EAP Article Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92"
+         Name="EAP Base News"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Comments -->
+        <pnp:FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Hidden="true" Required="false" />
+        <!-- Contact -->
+        <pnp:FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" Hidden="true" Required="false" />
+        <!-- Contact E-Mail Address -->
+        <pnp:FieldRef ID="{c79dba91-e60b-400e-973d-c6d06f192720}" Hidden="true" Required="false" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{7546ad0d-6c33-4501-b470-fb3003ca14ba}" Hidden="true" Required="false" />
+        <!-- Contact Picture -->
+        <pnp:FieldRef ID="{dc47d55f-9bf9-494a-8d5b-e619214dd19a}" Hidden="true" Required="false" />
+        <!-- Rollup Image -->
+        <pnp:FieldRef ID="{543bc2cf-1f30-488e-8f25-6fe3b689d9ac}" Hidden="true" Required="false" />
+        <!-- Hide physical URLs from search -->
+        <pnp:FieldRef ID="{50631c24-1371-4ecf-a5ae-ed41b03f4499}" Hidden="true" Required="false" />
+        <!-- Summary Links -->
+        <pnp:FieldRef ID="{b3525efe-59b5-4f0f-b1e4-6e26cb6ef6aa}" Hidden="true" Required="false" />
+        <!-- Browser Title -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- Meta Description -->
+        <pnp:FieldRef ID="{d83897e5-2430-4df7-8e5a-9bc06c664992}" Hidden="true" Required="false" />
+        <!-- Meta Keywords -->
+        <pnp:FieldRef ID="{45ae2169-585c-440b-aa4c-1d5e981fbbe5}" Hidden="true" Required="false" />
+        <!-- Hide from Internet Search Engines -->
+        <pnp:FieldRef ID="{325c00dd-fd91-468b-81cf-5bb9951abba1}" Hidden="true" Required="false" />
+        <!-- Article Date -->
+        <pnp:FieldRef ID="{71316cea-40a0-49f3-8659-f0cefdbdbd4f}" Required="true" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA9201"
+         Name="EAP News Article Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- Contact Email -->
+        <pnp:FieldRef ID="{9817d38a-49c5-4562-8dd0-8ccfafa5d206}" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{5b94c668-ab2f-4858-9a3a-f17b652b85dc}" />        
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- News View Item Type -->
+        <pnp:FieldRef ID="{7dcf64a3-cf2a-4f0a-8c9e-d327793f9779}" />
+        <!-- Is Video -->
+        <pnp:FieldRef ID="{5483a07f-1cbd-4513-a8a6-286770712ad7}" />
+        <!-- Is Featured Article -->
+        <pnp:FieldRef ID="{061f3e21-cb43-4321-83fd-b1b317c98e12}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+        <!-- EAP News Type -->
+        <pnp:FieldRef ID="{3C98D59C-6A75-4D39-AA73-BE9BF2C260A3}" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+        <!-- Sub-heading -->
+        <pnp:FieldRef ID="{458C840F-19B8-436F-89F7-F97DD2A6F477}" Required="false" />
+        <!-- Scheduling Start Date -->
+        <pnp:FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}" Hidden="false" Required="false" />
+        <!-- Scheduling End Date -->
+        <pnp:FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}" Hidden="true" Required="false" />
+        <!-- EAP Border Color -->
+        <pnp:FieldRef ID="{cd62a5e4-4f20-4af5-af46-0ca46ecf0974}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" Hidden="true" Required="false" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D000C27421AE4F54B208C65AE815EFB6B65"
+         Name="Solution Article Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- Sales Tool -->
+        <pnp:FieldRef ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D000BA15D5A21F044818D581AF9C70F7E8B"
+         Name="EAP Information Article Page"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Item -->
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC"
+         Name="EAP Item"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Poll -->
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC11"
+         Name="EAP Poll Item"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Required="false" Hidden="true" />
+        <!-- Poll Type -->
+        <pnp:FieldRef ID="{76CD90CD-4433-413D-A8FA-30D4CA3E2C2A}" Required="true" />
+        <!-- Poll Question -->
+        <pnp:FieldRef ID="{F42E9BDB-6B2E-4D3E-8A37-07B18BD33178}" Required="true" />
+        <!-- Answer 1 -->
+        <pnp:FieldRef ID="{B7FEF5FB-1BED-455C-80E5-35C569C6EFA9}" Required="true" />
+        <!-- Answer 2 -->
+        <pnp:FieldRef ID="{5D9A073A-7A73-4B03-B3EE-ADB49915DA7B}" Required="true" />
+        <!-- Answer 3 -->
+        <pnp:FieldRef ID="{B415B4E9-4FEA-4F9D-9ED2-7276C8F27E20}" />
+        <!-- Answer 4 -->
+        <pnp:FieldRef ID="{8B86EAA0-FE55-42FB-AC7A-2336EF44DC1D}" />
+        <!-- Answer 5 -->
+        <pnp:FieldRef ID="{65D83C9F-5DB5-447B-A375-47F9C0BF8694}" />
+        <!-- Answer 6 -->
+        <pnp:FieldRef ID="{213451F5-BD7C-43EA-A4DF-F9424255C3C4}" />
+        <!-- Correct Answer -->
+        <pnp:FieldRef ID="{818D5537-D922-449A-A249-C52D2537BD27}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100065B914C81794FC6BC24042100C9BD09"
+         Name="EAP Poll Answer"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Required="false" Hidden="true" />
+        <!-- User Key -->
+        <pnp:FieldRef ID="{A85502E7-B562-49E6-A175-6381B7162115}" Required="true" />
+        <!-- Poll Id -->
+        <pnp:FieldRef ID="{3F099F38-E223-4C13-9266-ADEE91B0E4F9}" Required="true" />
+        <!-- Answer Id -->
+        <pnp:FieldRef ID="{DED13694-727A-4B1A-BF69-0E5F325AEC7E}" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Directory -->
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC01"
+         Name="Location"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- City -->
+        <pnp:FieldRef ID="{a3193228-c362-43e3-86d4-20cf2a72b03c}" />
+        <!-- Address -->
+        <pnp:FieldRef ID="{fc2e188e-ba91-48c9-9dd3-16431afddd50}" />        
+        <!-- State/Providence -->
+        <pnp:FieldRef ID="{1507ae25-66cc-4ce0-bd58-84e38ae6595a}" />
+        <!-- Country -->
+        <pnp:FieldRef ID="{a6367808-3e8c-492e-badb-92bb829ebb38}" />
+        <!-- Postal Code -->
+        <pnp:FieldRef ID="{260c8f0c-a78c-4d3e-b5aa-b9987308836e}" />
+        <!-- Contact -->
+        <pnp:FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" />
+        <!-- Location Map -->
+        <pnp:FieldRef ID="{498e6dd9-7821-4092-926b-200462afaf40}" />
+        <!-- LocationID -->
+        <pnp:FieldRef ID="{1c745951-0291-47a9-95ac-6b717048aba4}" />
+        <!-- Location Landing Page -->
+        <pnp:FieldRef ID="{1c745951-0291-47a9-95ac-6b717048aba4}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- Location Business Units -->
+        <pnp:FieldRef ID="{5488ae03-9a4b-4cb8-85f5-9eb22522639c}" />
+        <!-- Location Associates -->
+        <pnp:FieldRef ID="{687ae7f0-9f2c-40c4-92e4-811188bb9ea6}" />      
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC02"
+         Name="Business Unit"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Business Unit -->
+        <pnp:FieldRef ID="{4f424074-c570-4a28-a05b-47f332a19ff3}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Contacts -->
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC03"
+         Name="EAP Contact"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC04"
+         Name="Solution Contact"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Review Date -->
+        <pnp:FieldRef ID="{40397661-73A5-4AD7-A65B-27247457415B}" />
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" />
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Solution -->
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC06"
+         Name="Product"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Solution Description -->
+        <pnp:FieldRef ID="{3c614746-706b-4a63-94e7-d562db5d16f9}" />
+        <!-- Solution Product Id -->
+        <pnp:FieldRef ID="{99E59F56-E65A-49A7-BC0B-C859A6FB27D7}" />
+        <!-- eCRM Product Id -->
+        <pnp:FieldRef ID="{d2985d90-2f16-4b22-af15-9425c7137c45}" />
+        <!-- Product Delivery Method -->
+        <pnp:FieldRef ID="{f18663ae-ccd5-458b-82c4-ed4676ffdcf6}" />
+        <!-- Product Directory Contact -->
+        <pnp:FieldRef ID="{6EE4E9EE-150B-4381-BB5B-13F486CB0A0B}" />
+        <!-- Product Geographic Market -->
+        <pnp:FieldRef ID="{75EBCB12-A61B-4B2A-BA0A-76A2926B0CD5}" />
+        <!-- Product Legacy Name -->
+        <pnp:FieldRef ID="{D5A637B5-4632-4EB0-8E3E-4880D9CD0947}" />
+        <!-- Product Platform -->
+        <pnp:FieldRef ID="{76832A22-F9EB-4C7C-BB0B-C158DC652987}" />
+        <!-- Product Target Market -->
+        <pnp:FieldRef ID="{8CC9B985-EFB7-4B77-B88F-8CF09A54A020}" />
+        <!-- Product Technology -->
+        <pnp:FieldRef ID="{74F6ED19-D330-4F02-A58E-4FAA51BCE35F}" />
+        <!-- Product Value Prop -->
+        <pnp:FieldRef ID="{BA6E23DA-3A9D-4B25-893A-7556D3087C33}" />
+        <!-- Product Contact Email -->
+        <pnp:FieldRef ID="{99576223-93d8-4c63-8008-0927c6c398fa}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC07"
+         Name="Solution Industry"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Solution Description -->
+        <pnp:FieldRef ID="{3c614746-706b-4a63-94e7-d562db5d16f9}" />
+        <!-- Solution Industry Id -->
+        <pnp:FieldRef ID="{D80AEE2B-AE68-4A00-A124-D64EB2D7B0CA}" />
+        <!-- Solution Platform -->
+        <pnp:FieldRef ID="{44830777-9D05-44F7-B8F3-29D6529CB66B}" />
+        <!-- Solution Product -->
+        <pnp:FieldRef ID="{D5765D3A-58A0-47E4-A759-323D7927972E}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC08"
+         Name="Solution Competency"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Solution Description -->
+        <pnp:FieldRef ID="{3c614746-706b-4a63-94e7-d562db5d16f9}" />
+        <!-- Solution Compentancy Id -->
+        <pnp:FieldRef ID="{8ACC319C-834A-428F-9975-D97CBBB1B84B}" />
+        <!-- Solution Set -->
+        <pnp:FieldRef ID="{8A9F61CC-844F-48B8-879A-D0B9B5D799F5}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC09"
+         Name="Solution Set"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        <!-- Solution Description -->
+        <pnp:FieldRef ID="{3c614746-706b-4a63-94e7-d562db5d16f9}" />
+        <!-- Solution Set Id -->
+        <pnp:FieldRef ID="{E258E17A-04DE-4622-9F40-9AB9C19B9E5A}" />
+        <!-- Solution Product -->
+        <pnp:FieldRef ID="{D5765D3A-58A0-47E4-A759-323D7927972E}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x0100D25828C615644ABAA0BE74D1685338FC10"
+         Name="Solution Platform"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Title -->
+        <pnp:FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Required="true" />
+        <!-- Solution Description -->
+        <pnp:FieldRef ID="{3c614746-706b-4a63-94e7-d562db5d16f9}" />
+        <!-- Solution Platform Id -->
+        <pnp:FieldRef ID="{B362941E-BCF7-402C-B7CB-60520D943AB7}" />
+        <!-- Solution Product -->
+        <pnp:FieldRef ID="{D5765D3A-58A0-47E4-A759-323D7927972E}" />
+        <!-- Active -->
+        <pnp:FieldRef ID="{41CFF327-E2E0-4E59-AC95-34832B6DB545}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Events -->
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D88523261"
+         Name="EAP Base Event"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Content Owner -->
+        <pnp:FieldRef ID="{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}" />
+        <!-- Start Date -->
+        <pnp:FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Required="true" />
+        <!-- End Date -->
+        <pnp:FieldRef ID="{8a121252-85a9-443d-8217-a1b57020fadf}" Required="true" />
+        <!-- Comments -->
+        <pnp:FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Hidden="true" Required="false" />
+        <!-- Contact -->
+        <pnp:FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" Hidden="true" Required="false" />
+        <!-- Contact E-Mail Address -->
+        <pnp:FieldRef ID="{c79dba91-e60b-400e-973d-c6d06f192720}" Hidden="true" Required="false" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{7546ad0d-6c33-4501-b470-fb3003ca14ba}" Hidden="true" Required="false" />
+        <!-- Contact Picture -->
+        <pnp:FieldRef ID="{dc47d55f-9bf9-494a-8d5b-e619214dd19a}" Hidden="true" Required="false" />
+        <!-- Rollup Image -->
+        <pnp:FieldRef ID="{543bc2cf-1f30-488e-8f25-6fe3b689d9ac}" Hidden="true" Required="false" />
+        <!-- Hide physical URLs from search -->
+        <pnp:FieldRef ID="{50631c24-1371-4ecf-a5ae-ed41b03f4499}" Hidden="true" Required="false" />
+        <!-- Page Image -->
+        <pnp:FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Hidden="true" Required="false" />
+        <!-- Byline -->
+        <pnp:FieldRef ID="{d3429cc9-adc4-439b-84a8-5679070f84cb}" Hidden="true" Required="false" />
+        <!-- Article Date -->
+        <pnp:FieldRef ID="{71316cea-40a0-49f3-8659-f0cefdbdbd4f}" Hidden="true" Required="false" />
+        <!-- Summary Links -->
+        <pnp:FieldRef ID="{b3525efe-59b5-4f0f-b1e4-6e26cb6ef6aa}" Hidden="true" Required="false" />
+        <!-- Browser Title -->
+        <pnp:FieldRef ID="{ff92f929-d18b-46d4-9879-521378c689ef}" Hidden="true" Required="false" />
+        <!-- Meta Description -->
+        <pnp:FieldRef ID="{d83897e5-2430-4df7-8e5a-9bc06c664992}" Hidden="true" Required="false" />
+        <!-- Meta Keywords -->
+        <pnp:FieldRef ID="{45ae2169-585c-440b-aa4c-1d5e981fbbe5}" Hidden="true" Required="false" />
+        <!-- Hide from Internet Search Engines -->
+        <pnp:FieldRef ID="{325c00dd-fd91-468b-81cf-5bb9951abba1}" Hidden="true" Required="false" />
+        <!-- Scheduling Start Date -->
+        <pnp:FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}" Hidden="true" Required="false" />
+        <!-- Scheduling End Date -->
+        <pnp:FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}" Hidden="true" Required="false" />
+        <!-- Event Location -->
+        <pnp:FieldRef ID="{dd688484-3eeb-49e5-bc01-e2b6e9378c05}" />
+        <!-- EAP Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}" />
+        <!-- Sub-heading -->
+        <pnp:FieldRef ID="{458C840F-19B8-436F-89F7-F97DD2A6F477}" Required="false" />
+        <!-- Enterprise Keywords -->
+        <pnp:FieldRef ID="{23f27201-bee3-471e-b2e7-b64fd8b7ca38}" />
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" Hidden="true" Required="false" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101"
+         Name="EAP Internal Event"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP Internal Event Type -->
+        <pnp:FieldRef ID="{BC017A3E-0149-42CA-B987-4F00D92BC208}" />
+        <!-- Target Role -->
+        <pnp:FieldRef ID="{0E946D2B-BF4E-448A-9056-C7965064223C}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Target Business Units -->
+        <pnp:FieldRef ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{5b94c668-ab2f-4858-9a3a-f17b652b85dc}" />
+        <!-- Contact Email -->
+        <pnp:FieldRef ID="{9817d38a-49c5-4562-8dd0-8ccfafa5d206}" />
+        <!-- Scheduling Start Date -->
+        <pnp:FieldRef ID="{235EA79A-6EBA-4384-822D-D06785C4B4BA}" />        
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <pnp:ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102"
+         Name="EAP External Event"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- EAP External Event Type -->
+        <pnp:FieldRef ID="{BC017A3E-0149-42CA-B987-4F00D92BC218}" />
+        <!-- Solution -->
+        <pnp:FieldRef ID="{17539830-B0EE-411B-B29C-2B819D18E89C}" Required="false" />
+        <!-- Solution Subject -->
+        <pnp:FieldRef ID="{B209D0BE-F227-4424-A72A-B0C638265D2B}" Required="false" />
+        <!-- Venue -->
+        <pnp:FieldRef ID="{c771f26c-f36f-4f7c-9143-0ddfab90b52b}" />
+        <!-- Industry -->
+        <pnp:FieldRef ID="{4EFD10D1-A532-446A-87C6-51E6DA5DF823}" />
+        <!-- Contact Name -->
+        <pnp:FieldRef ID="{5b94c668-ab2f-4858-9a3a-f17b652b85dc}" />
+        <!-- Contact Email -->
+        <pnp:FieldRef ID="{9817d38a-49c5-4562-8dd0-8ccfafa5d206}" />
+        <!-- Target Locations -->
+        <pnp:FieldRef ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}" />
+        <!-- Scheduling Start Date -->
+        <pnp:FieldRef ID="{235EA79A-6EBA-4384-822D-D06785C4B4BA}" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- System Update -->
+    <pnp:ContentType ID="0x010052ACBE079D914585813038F4E581C9BD"
+         Name="EAP System Update"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Description -->
+        <pnp:FieldRef ID="{34a72e09-3ca6-4931-b2e3-f81c40bb87bd}" />
+        <!-- Start Date -->
+        <pnp:FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Required="true" />
+        <!-- End Date -->
+        <pnp:FieldRef ID="{8a121252-85a9-443d-8217-a1b57020fadf}" Required="true" />
+        <!-- Event Duration -->
+        <pnp:FieldRef ID="{efd9a349-9202-4c35-8c24-d20b1fb5811e}" Required="true" />
+        <!-- System Update Description -->
+        <pnp:FieldRef ID="{1f51ff4d-d1c9-44d0-8096-3a2848fad6bb}" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+    <!-- Promoted Content -->
+    <pnp:ContentType ID="0x010052ACBE079D914585813038F4E581C9BE"
+         Name="Promoted Content"
+         Group="Fiserv Content Types">
+      <pnp:FieldRefs>
+        <!-- Display Order -->
+        <pnp:FieldRef ID="{04BE4570-B366-42FF-85E4-77C4EE42F7DB}" Required="true" />
+        <!-- Promoted Content Type -->
+        <pnp:FieldRef ID="{9d489156-2438-4136-961e-67ec93bd1c7c}" Required="true" />
+        <!-- Promoted URL -->
+        <pnp:FieldRef ID="{b06cf254-c95b-4d1b-906d-8b43c038b6f0}" Required="true" />
+        <!-- Promoted Description -->
+        <pnp:FieldRef ID="{98e745be-1963-43dd-becf-8a84b56ec713}" Required="true" />
+      </pnp:FieldRefs>
+    </pnp:ContentType>
+  </pnp:ContentTypes>
+  <pnp:SearchSettings>
+    <SearchConfigurationSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Portability">
+      <SearchQueryConfigurationSettings>
+        <SearchQueryConfigurationSettings>
+          <BestBets xmlns:d4p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08" />
+          <DefaultSourceId>{guid}</DefaultSourceId>
+          <DefaultSourceIdSet>true</DefaultSourceIdSet>
+          <DeployToParent>false</DeployToParent>
+          <DisableInheritanceOnImport>false</DisableInheritanceOnImport>
+          <QueryRuleGroups xmlns:d4p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08" />
+          <QueryRules xmlns:d4p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+            <d4p1:QueryRule>
+              <d4p1:AssignBestBetsAction i:nil="true" />
+              <d4p1:ChangeQueryAction i:nil="true" />
+              <d4p1:Consumer xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Consumer>
+              <d4p1:ContextConditions>
+                <d4p1:MaxSize>2147483647</d4p1:MaxSize>
+                <d4p1:OrderedItems>
+                  <d4p1:ContextCondition i:type="d4p1:SourceContextCondition">
+                    <d4p1:Id>{guid}</d4p1:Id>
+                    <d4p1:SourceId>{guid:Main Search}</d4p1:SourceId>
+                  </d4p1:ContextCondition>
+                </d4p1:OrderedItems>
+              </d4p1:ContextConditions>
+              <d4p1:CreateResultBlockActions>
+                <d4p1:MaxSize>2147483647</d4p1:MaxSize>
+                <d4p1:OrderedItems>
+                  <d4p1:CreateResultBlockAction>
+                    <d4p1:Id>{guid}</d4p1:Id>
+                    <d4p1:LicenseRequired>Enterprise</d4p1:LicenseRequired>
+                    <d4p1:_EnableOnClickThroughOptions>NextPage Refinement</d4p1:_EnableOnClickThroughOptions>
+                    <d4p1:_ResultTableType i:nil="true" />
+                    <d4p1:_AlwaysShow>true</d4p1:_AlwaysShow>
+                    <d4p1:_GroupTemplateId>~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js</d4p1:_GroupTemplateId>
+                    <d4p1:_ItemTemplateId>~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_FiservEmp.js</d4p1:_ItemTemplateId>
+                    <d4p1:_QueryTransform>
+                      <d4p1:Id>{guid}</d4p1:Id>
+                      <d4p1:IsSystem>false</d4p1:IsSystem>
+                      <d4p1:OverridePropertiesForSeralization xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <d10p1:KeyValueOfstringanyType>
+                          <d10p1:Key>RowLimit</d10p1:Key>
+                          <d10p1:Value xmlns:d12p1="http://www.w3.org/2001/XMLSchema" i:type="d12p1:int">5</d10p1:Value>
+                        </d10p1:KeyValueOfstringanyType>
+                        <d10p1:KeyValueOfstringanyType>
+                          <d10p1:Key>TotalRowsExactMinimum</d10p1:Key>
+                          <d10p1:Value xmlns:d12p1="http://www.w3.org/2001/XMLSchema" i:type="d12p1:int">5</d10p1:Value>
+                        </d10p1:KeyValueOfstringanyType>
+                        <d10p1:KeyValueOfstringanyType>
+                          <d10p1:Key>SortList</d10p1:Key>
+                          <d10p1:Value i:type="d4p1:SortCollection">
+                            <d4p1:m_elements>
+                              <d4p1:Sort>
+                                <d4p1:direction>Ascending</d4p1:direction>
+                                <d4p1:strProperty>LastNameSortable</d4p1:strProperty>
+                              </d4p1:Sort>
+                              <d4p1:Sort>
+                                <d4p1:direction>Ascending</d4p1:direction>
+                                <d4p1:strProperty>FirstName</d4p1:strProperty>
+                              </d4p1:Sort>
+                            </d4p1:m_elements>
+                          </d10p1:Value>
+                        </d10p1:KeyValueOfstringanyType>
+                      </d4p1:OverridePropertiesForSeralization>
+                      <d4p1:OwnerId i:nil="true" />
+                      <d4p1:ParentId i:nil="true" />
+                      <d4p1:ParentType>Action</d4p1:ParentType>
+                      <d4p1:QueryPropertyExpressions>
+                        <d4p1:MaxSize>2147483647</d4p1:MaxSize>
+                        <d4p1:OrderedItems />
+                      </d4p1:QueryPropertyExpressions>
+                      <d4p1:_IsReadOnly>false</d4p1:_IsReadOnly>
+                      <d4p1:_QueryTemplate>{searchTerms}*</d4p1:_QueryTemplate>
+                      <d4p1:_SourceId>{guid:Local People Results}</d4p1:_SourceId>
+                    </d4p1:_QueryTransform>
+                    <d4p1:_ResultTitle>
+                      <d4p1:DefaultLanguageLcid>1033</d4p1:DefaultLanguageLcid>
+                      <d4p1:LanguageDictionary xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                        <d10p1:KeyValueOfintstring>
+                          <d10p1:Key>1033</d10p1:Key>
+                          <d10p1:Value>People results for "{subjectTerms}"</d10p1:Value>
+                        </d10p1:KeyValueOfintstring>
+                      </d4p1:LanguageDictionary>
+                      <d4p1:MaximumStringLength>256</d4p1:MaximumStringLength>
+                      <d4p1:ResourceStringName i:nil="true" />
+                    </d4p1:_ResultTitle>
+                    <d4p1:_ResultTitleUrl />
+                  </d4p1:CreateResultBlockAction>
+                </d4p1:OrderedItems>
+              </d4p1:CreateResultBlockActions>
+              <d4p1:CreationDate>{date}</d4p1:CreationDate>
+              <d4p1:DefaultLanguageLCID>1033</d4p1:DefaultLanguageLCID>
+              <d4p1:GroupId i:nil="true" />
+              <d4p1:IsActive>true</d4p1:IsActive>
+              <d4p1:IsStoredInSql>true</d4p1:IsStoredInSql>
+              <d4p1:IsSystem>false</d4p1:IsSystem>
+              <d4p1:LastModified>{date}</d4p1:LastModified>
+              <d4p1:OrderInGroup>0</d4p1:OrderInGroup>
+              <d4p1:QueryConditions>
+                <d4p1:MaxSize>16</d4p1:MaxSize>
+                <d4p1:OrderedItems />
+              </d4p1:QueryConditions>
+              <d4p1:_Contact />
+              <d4p1:_DisplayName>People Results</d4p1:_DisplayName>
+              <d4p1:_EndDate i:nil="true" />
+              <d4p1:_Id>{guid}</d4p1:_Id>
+              <d4p1:_IsActive>true</d4p1:_IsActive>
+              <d4p1:_IsBestBetOnly>false</d4p1:_IsBestBetOnly>
+              <d4p1:_IsDeactivatedAtHigherLevel>false</d4p1:_IsDeactivatedAtHigherLevel>
+              <d4p1:_IsReadOnlyExplicit>false</d4p1:_IsReadOnlyExplicit>
+              <d4p1:_Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:_Owner>
+              <d4p1:_ProcessingDirective>Stop</d4p1:_ProcessingDirective>
+              <d4p1:_ReviewDate i:nil="true" />
+              <d4p1:_StartDate i:nil="true" />
+            </d4p1:QueryRule>
+          </QueryRules>
+          <ResultTypes xmlns:d4p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+            <d4p1:ResultItemType>
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:DisplayProperties>Title,Path,Description,EditorOWSUSER,LastModifiedTime,CollapsingStatus,DocId,HitHighlightedSummary,HitHighlightedProperties,FileExtension,ViewsLifeTime,ParentLink,FileType,IsContainer,SecondaryFileExtension,DisplayAuthor,ContentType,EAPSolutionCompetencyId,EAPSolutionIndustryId,EAPSolutionProductId,EAPSolutionSetId,EAPSolutionDescription,EAPSolutionPlatformId</d4p1:DisplayProperties>
+              <d4p1:DisplayTemplateUrl>~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_EAPSolution.js</d4p1:DisplayTemplateUrl>
+              <d4p1:ID>{id}</d4p1:ID>
+              <d4p1:InternalID>{guid}</d4p1:InternalID>
+              <d4p1:IsDeleted>false</d4p1:IsDeleted>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:Name>EAP Solution Type</d4p1:Name>
+              <d4p1:OptimizeForFrequentUse>true</d4p1:OptimizeForFrequentUse>
+              <d4p1:Owner>
+                <d4p1:DatabaseId>{guid:DatabaseId}</d4p1:DatabaseId>
+                <d4p1:DisableInheritance>false</d4p1:DisableInheritance>
+                <d4p1:SPFarmId>{guid:SPFarmId}</d4p1:SPFarmId>
+                <d4p1:SPSiteId>{guid:SPSiteId}</d4p1:SPSiteId>
+                <d4p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d4p1:SPSiteSubscriptionId>
+                <d4p1:SPWebId>{guid:SPWebId}</d4p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:RulePriority>1</d4p1:RulePriority>
+              <d4p1:Rules>
+                <d4p1:PropertyRules>
+                  <d4p1:PropertyRule>
+                    <d4p1:PropertyName>contentclass</d4p1:PropertyName>
+                    <d4p1:PropertyOperator>
+                      <d4p1:DescriptionLSID>ManageResultTypes_Conditions_Equals</d4p1:DescriptionLSID>
+                      <d4p1:IsFunction>false</d4p1:IsFunction>
+                      <d4p1:IsQuoted>true</d4p1:IsQuoted>
+                      <d4p1:JoinedByOr>true</d4p1:JoinedByOr>
+                      <d4p1:Name i:nil="true" />
+                      <d4p1:NameLSID>ResultType_RuleOperator_Equals</d4p1:NameLSID>
+                      <d4p1:Representation>=</d4p1:Representation>
+                    </d4p1:PropertyOperator>
+                    <d4p1:PropertyValues xmlns:d9p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d9p1:string>sts_listitem_6510</d9p1:string>
+                      <d9p1:string>sts_listitem_contacts</d9p1:string>
+                      <d9p1:string>sts_listitem_events</d9p1:string>
+                      <d9p1:string>sts_listitem_issuetracking</d9p1:string>
+                      <d9p1:string>sts_listitem_links</d9p1:string>
+                      <d9p1:string>urn:content-classes:spslisting</d9p1:string>
+                      <d9p1:string>urn:content-class:spslisting:news</d9p1:string>
+                      <d9p1:string>urn:content-classes:spspersonlisting</d9p1:string>
+                      <d9p1:string>sts_listitem_gantttasks</d9p1:string>
+                      <d9p1:string>urn:content-class:spssearchquery</d9p1:string>
+                      <d9p1:string>urn:content-classes:spssitelisting</d9p1:string>
+                      <d9p1:string>sts_listitem_tasks</d9p1:string>
+                      <d9p1:string>urn:content-classes:spstextlisting</d9p1:string>
+                      <d9p1:string>sts_listitem_genericlist</d9p1:string>
+                    </d4p1:PropertyValues>
+                    <d4p1:RuleNameLSID>Type_ListItem</d4p1:RuleNameLSID>
+                  </d4p1:PropertyRule>
+                  <d4p1:PropertyRule>
+                    <d4p1:PropertyName>ContentType</d4p1:PropertyName>
+                    <d4p1:PropertyOperator>
+                      <d4p1:DescriptionLSID>ManageResultTypes_Conditions_Equals</d4p1:DescriptionLSID>
+                      <d4p1:IsFunction>false</d4p1:IsFunction>
+                      <d4p1:IsQuoted>true</d4p1:IsQuoted>
+                      <d4p1:JoinedByOr>true</d4p1:JoinedByOr>
+                      <d4p1:Name i:nil="true" />
+                      <d4p1:NameLSID>ResultType_RuleOperator_Equals</d4p1:NameLSID>
+                      <d4p1:Representation>=</d4p1:Representation>
+                    </d4p1:PropertyOperator>
+                    <d4p1:PropertyValues xmlns:d9p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d9p1:string>Product</d9p1:string>
+                      <d9p1:string>Solution Competency</d9p1:string>
+                      <d9p1:string>Solution Set</d9p1:string>
+                      <d9p1:string>Solution Industry</d9p1:string>
+                      <d9p1:string>Solution Platform</d9p1:string>
+                    </d4p1:PropertyValues>
+                    <d4p1:RuleNameLSID i:nil="true" />
+                  </d4p1:PropertyRule>
+                </d4p1:PropertyRules>
+              </d4p1:Rules>
+              <d4p1:SourceID>{guid:Blank}</d4p1:SourceID>
+            </d4p1:ResultItemType>
+            <d4p1:ResultItemType>
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:DisplayProperties>Title,Path,Description,EditorOWSUSER,LastModifiedTime,CollapsingStatus,DocId,HitHighlightedSummary,HitHighlightedProperties,FileExtension,ViewsLifeTime,ParentLink,FileType,IsContainer,SecondaryFileExtension,DisplayAuthor,ContentType,EAPLinkURL</d4p1:DisplayProperties>
+              <d4p1:DisplayTemplateUrl>~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_EAPLink.js</d4p1:DisplayTemplateUrl>
+              <d4p1:ID>{id}</d4p1:ID>
+              <d4p1:InternalID>{guid}</d4p1:InternalID>
+              <d4p1:IsDeleted>false</d4p1:IsDeleted>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:Name>EAP Link Type</d4p1:Name>
+              <d4p1:OptimizeForFrequentUse>true</d4p1:OptimizeForFrequentUse>
+              <d4p1:Owner>
+                <d4p1:DatabaseId>{guid:DatabaseId}</d4p1:DatabaseId>
+                <d4p1:DisableInheritance>false</d4p1:DisableInheritance>
+                <d4p1:SPFarmId>{guid:SPFarmId}</d4p1:SPFarmId>
+                <d4p1:SPSiteId>{guid:SPSiteId}</d4p1:SPSiteId>
+                <d4p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d4p1:SPSiteSubscriptionId>
+                <d4p1:SPWebId>{guid:SPWebId}</d4p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:RulePriority>2</d4p1:RulePriority>
+              <d4p1:Rules>
+                <d4p1:PropertyRules>
+                  <d4p1:PropertyRule>
+                    <d4p1:PropertyName>contentclass</d4p1:PropertyName>
+                    <d4p1:PropertyOperator>
+                      <d4p1:DescriptionLSID>ManageResultTypes_Conditions_Equals</d4p1:DescriptionLSID>
+                      <d4p1:IsFunction>false</d4p1:IsFunction>
+                      <d4p1:IsQuoted>true</d4p1:IsQuoted>
+                      <d4p1:JoinedByOr>true</d4p1:JoinedByOr>
+                      <d4p1:Name i:nil="true" />
+                      <d4p1:NameLSID>ResultType_RuleOperator_Equals</d4p1:NameLSID>
+                      <d4p1:Representation>=</d4p1:Representation>
+                    </d4p1:PropertyOperator>
+                    <d4p1:PropertyValues xmlns:d9p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d9p1:string>sts_listitem_6510</d9p1:string>
+                      <d9p1:string>sts_listitem_contacts</d9p1:string>
+                      <d9p1:string>sts_listitem_events</d9p1:string>
+                      <d9p1:string>sts_listitem_issuetracking</d9p1:string>
+                      <d9p1:string>sts_listitem_links</d9p1:string>
+                      <d9p1:string>urn:content-classes:spslisting</d9p1:string>
+                      <d9p1:string>urn:content-class:spslisting:news</d9p1:string>
+                      <d9p1:string>urn:content-classes:spspersonlisting</d9p1:string>
+                      <d9p1:string>sts_listitem_gantttasks</d9p1:string>
+                      <d9p1:string>urn:content-class:spssearchquery</d9p1:string>
+                      <d9p1:string>urn:content-classes:spssitelisting</d9p1:string>
+                      <d9p1:string>sts_listitem_tasks</d9p1:string>
+                      <d9p1:string>urn:content-classes:spstextlisting</d9p1:string>
+                      <d9p1:string>sts_listitem_genericlist</d9p1:string>
+                    </d4p1:PropertyValues>
+                    <d4p1:RuleNameLSID>Type_ListItem</d4p1:RuleNameLSID>
+                  </d4p1:PropertyRule>
+                  <d4p1:PropertyRule>
+                    <d4p1:PropertyName>ContentType</d4p1:PropertyName>
+                    <d4p1:PropertyOperator>
+                      <d4p1:DescriptionLSID>ManageResultTypes_Conditions_Equals</d4p1:DescriptionLSID>
+                      <d4p1:IsFunction>false</d4p1:IsFunction>
+                      <d4p1:IsQuoted>true</d4p1:IsQuoted>
+                      <d4p1:JoinedByOr>true</d4p1:JoinedByOr>
+                      <d4p1:Name i:nil="true" />
+                      <d4p1:NameLSID>ResultType_RuleOperator_Equals</d4p1:NameLSID>
+                      <d4p1:Representation>=</d4p1:Representation>
+                    </d4p1:PropertyOperator>
+                    <d4p1:PropertyValues xmlns:d9p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d9p1:string>EAP Link</d9p1:string>
+                      <d9p1:string>EAP Solution Link</d9p1:string>
+                    </d4p1:PropertyValues>
+                    <d4p1:RuleNameLSID i:nil="true" />
+                  </d4p1:PropertyRule>
+                </d4p1:PropertyRules>
+              </d4p1:Rules>
+              <d4p1:SourceID>{guid:Blank}</d4p1:SourceID>
+            </d4p1:ResultItemType>
+            <d4p1:ResultItemType>
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:DisplayProperties>Title,Path,Description,EditorOWSUSER,LastModifiedTime,CollapsingStatus,DocId,HitHighlightedSummary,HitHighlightedProperties,FileExtension,ViewsLifeTime,ParentLink,FileType,IsContainer,SecondaryFileExtension,DisplayAuthor,PublishingImage</d4p1:DisplayProperties>
+              <d4p1:DisplayTemplateUrl>~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_EAPNews.js</d4p1:DisplayTemplateUrl>
+              <d4p1:ID>{id}</d4p1:ID>
+              <d4p1:InternalID>{guid}</d4p1:InternalID>
+              <d4p1:IsDeleted>false</d4p1:IsDeleted>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:Name>EAP News Type</d4p1:Name>
+              <d4p1:OptimizeForFrequentUse>true</d4p1:OptimizeForFrequentUse>
+              <d4p1:Owner>
+                <d4p1:DatabaseId>{guid:DatabaseId}</d4p1:DatabaseId>
+                <d4p1:DisableInheritance>false</d4p1:DisableInheritance>
+                <d4p1:SPFarmId>{guid:SPFarmId}</d4p1:SPFarmId>
+                <d4p1:SPSiteId>{guid:SPSiteId}</d4p1:SPSiteId>
+                <d4p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d4p1:SPSiteSubscriptionId>
+                <d4p1:SPWebId>{guid:SPWebId}</d4p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:RulePriority>3</d4p1:RulePriority>
+              <d4p1:Rules>
+                <d4p1:PropertyRules>
+                  <d4p1:PropertyRule>
+                    <d4p1:PropertyName>ContentType</d4p1:PropertyName>
+                    <d4p1:PropertyOperator>
+                      <d4p1:DescriptionLSID>ManageResultTypes_Conditions_Contains</d4p1:DescriptionLSID>
+                      <d4p1:IsFunction>true</d4p1:IsFunction>
+                      <d4p1:IsQuoted>true</d4p1:IsQuoted>
+                      <d4p1:JoinedByOr>true</d4p1:JoinedByOr>
+                      <d4p1:Name i:nil="true" />
+                      <d4p1:NameLSID>ResultType_RuleOperator_Contains</d4p1:NameLSID>
+                      <d4p1:Representation>Contains</d4p1:Representation>
+                    </d4p1:PropertyOperator>
+                    <d4p1:PropertyValues xmlns:d9p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d9p1:string>EAP News Article Page</d9p1:string>
+                    </d4p1:PropertyValues>
+                    <d4p1:RuleNameLSID i:nil="true" />
+                  </d4p1:PropertyRule>
+                </d4p1:PropertyRules>
+              </d4p1:Rules>
+              <d4p1:SourceID>{guid:Main Search}</d4p1:SourceID>
+            </d4p1:ResultItemType>
+          </ResultTypes>
+          <Sources xmlns:d4p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration.Query">
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Content Detail Internal Featured Events Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>StartDateOWSDATEComputed</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101*  Path:"{sitecollectionurl}" -Path:{ListItem.URL} {|EAPSubject:{Page.EAPSubject.Name}} EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate>https://www.globoforce.net/microsites/t_pub/awards/social/rss?client=fiserv&amp;lang=eng</d4p1:ConnectionUrlTemplate>
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Living Proof RSS</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:OpenSearch}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>{searchTerms}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>System Updates</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010052ACBE079D914585813038F4E581C9BD* Path:"{sitecollectionurl}"  StartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z AND EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Content Detail External Featured Events Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>StartDateOWSDATEComputed</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102* Path:"{sitecollectionurl}" -Path:{ListItem.URL} {|EAPSubject:{Page.EAPSubject.Name}} EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Landing Page News Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Descending</d6p1:direction>
+                          <d6p1:strProperty>ArticleStartDateTime</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>{searchTerms} Path:{sitecollectionurl} ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page News All Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Descending</d6p1:direction>
+                          <d6p1:strProperty>ArticleStartDateTime</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*({|owstaxIdTargetLocations:{User.PreferredLocation}} OR {|owstaxIdTargetBusinessUnits:{User.Organization}} OR {|owstaxIdTargetRole:{User.Role}} OR TargetRole:All OR TargetLocations:All OR TargetBusinessUnits:All) AND((Path:"{sitecollectionurl}/news"  AND IsFeaturedArticleOWSBOOL:0) OR (-Path:"{sitecollectionurl}/news" AND Path:"{sitecollectionurl}"))</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page News Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*  TargetRole:All OR TargetLocations:All OR TargetBusinessUnits:All (Path:"{sitecollectionurl}/news" AND IsFeaturedArticleOWSBOOL:0) OR (-Path:"{sitecollectionurl}/news" AND Path:"{sitecollectionurl}")</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>BUCF Landing Page</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Descending</d6p1:direction>
+                          <d6p1:strProperty>ArticleStartDateTime</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*  {|owstaxIdTargetBusinessUnits:{Page.TargetTag.Name}} AND Path:"{sitecollectionurl}"</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page Events Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>StartDateOWSDATEComputed</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>(ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102* Path:"{sitecollectionurl}") OR (ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101*  {|owstaxIdTargetLocations:{User.PreferredLocation}} OR {|owstaxIdTargetBusinessUnits:{User.Organization}} OR {|owstaxIdTargetRole:{User.Role}} OR TargetLocations:All OR TargetBusinessUnits:All OR TargetRole:All Path:"{sitecollectionurl}")(EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z AND SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z)</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page Featured News Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA9201* {|owstaxIdTargetLocations:{User.PreferredLocation}} OR {|owstaxIdTargetBusinessUnits:{User.Organization}} OR {|owstaxIdTargetRole:{User.Role}} OR TargetRole:All OR TargetLocations:All OR TargetBusinessUnits:All IsFeaturedArticleOWSBOOL:1  Path:"{sitecollectionurl}/news"</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page News Organization Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*  {|owstaxIdTargetBusinessUnits:{User.Organization}} (Path:"{sitecollectionurl}/news" AND IsFeaturedArticleOWSBOOL:0) OR (-Path:"{sitecollectionurl}/news" AND Path:"{sitecollectionurl}")</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid:Main Search}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Main Search</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>{searchTerms} Path:{SiteCollection.Url} -FileName:"AllItems" -FileName:"All Forms" -FileName:"Thumbnails" -PublishingPageLayoutOWSURLH:"Landing" -PublishingPageLayoutOWSURLH:"Welcome" -PublishingPageLayoutOWSURLH:"welcome" -PublishingPageLayoutOWSURLH:"Summary" -PublishingPageLayoutOWSURLH:"summary" -PublishingPageLayoutOWSURLH:"Search" -CreatedBy:{searchTerms} -CheckoutUserOWSUSER:{searchTerms} -ModifiedBy:{searchTerms} -EAPContentOwnerOWSUSER:{searchTerms} -PublishingContactOWSUSER:{searchTerms} -ContactOWSTEXT:{searchTerms} -ContactNameOWSTEXT:{searchTerms} (contentclass:STS_ListItem OR IsDocument:True) IsContainer&lt;&gt;True -Path="{sitecollectionurl}/pages/news.aspx" -Path="{sitecollectionurl}/pages/events.aspx" -Path:"{sitecollectionurl}/locs/Lists/LocationDirectory/DispForm.aspx?ID=*" -ContentTypeId:0x0101009148F5A04DDD49CBA7127AADA5FB792B00AADE34325A8B49CDA8BB4DB53328F214* ((-ContentType:"EAP Internal Event" AND -ContentType:"EAP Internal Event") OR ((ContentType:"EAP Internal Event" OR ContentType:"EAP Internal Event") AND EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z AND SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z))</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Promoted Links</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D05* Path:"{sitecollectionurl}" RoutingEnabledOWSBOOL:1 {|owstaxIdTargetLocations:{User.PreferredLocation}} OR TargetLocations:All {|owstaxIdTargetBusinessUnits :{User.Organization}} OR TargetBusinessUnits:All</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Content Detail Featured News Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92* Path:"{sitecollectionurl}" {|EAPSubject:{Page.EAPSubject.Name}} -Path:{ListItem.URL}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Home Page News Location Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*  {|owstaxIdTargetLocations:{User.PreferredLocation}} (Path:"{sitecollectionurl}/news" AND IsFeaturedArticleOWSBOOL:0) OR (-Path:"{sitecollectionurl}/news" AND Path:"{sitecollectionurl}")</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Landing Page Events Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>StartDateOWSDATEComputed</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>{searchTerms} Path:"{sitecollectionurl}" (ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102* OR ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101*)  (EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z AND SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z)</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Location Landing Page</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Descending</d6p1:direction>
+                          <d6p1:strProperty>ArticleStartDateTime</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D0009B74A6FC254414E8F9B3DA18D11EA92*  {|owstaxIdTargetLocations:{Page.TargetTagLocation.Name}} AND Path:"{sitecollectionurl}"</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Location Page Events Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>StartDateOWSDATEComputed</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>(ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326102* OR ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E7177F5754054BFBA181B14D8852326101*)({|owstaxIdTargetLocations:{Page.TargetTagLocation.Name}} OR TargetLocations:All) Path:"{sitecollectionurl}" EndDateOWSDATEComputed&gt;={Today}T00:00:00.0000000Z SchedulingStartDateOWSDATEComputed&lt;={Today}T00:00:00.0000000Z</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>            
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Location Search Results</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC01* ActiveOWSBOOL=1 path:"{sitecollectionurl}"</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Content Detail Related Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D01*  ContentTypeId:0x0101009189AB5D3D2647B580F011DA2F356FB301* ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E4* Path:{Site.URL} {|EAPSubject:{Page.EAPSubject.Name}} -Path:{Page.URL}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>People At Location Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:People Search Results}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>LastNameSortable</d6p1:strProperty>
+                        </d6p1:Sort>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>FirstName</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>OfficeNumber={QueryString.location}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Solution Article Related Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>ContentTypeId:0x0101009189AB5D3D2647B580F011DA2F356FB302* ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D03* ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5* Path:{Site.URL} {|EAPSolution:{Page.Solution.Name}} -Path:{Page.URL}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Solution Article Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>{searchboxquery} ContentTypeId:0x0101009189AB5D3D2647B580F011DA2F356FB302* ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D03* ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5* ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC06* ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC07* ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC08* ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC09* ContentTypeId:0x0100D25828C615644ABAA0BE74D1685338FC010* Path:{sitecollectionurl}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Solution Landing Page Collateral Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                  <d7p1:KeyValueOfstringanyType>
+                    <d7p1:Key>SortList</d7p1:Key>
+                    <d7p1:Value i:type="d6p1:SortCollection">
+                      <d6p1:m_elements>
+                        <d6p1:Sort>
+                          <d6p1:direction>Ascending</d6p1:direction>
+                          <d6p1:strProperty>DisplayOrderOWSNMBR</d6p1:strProperty>
+                        </d6p1:Sort>
+                        <d6p1:Sort>
+                          <d6p1:direction>Descending</d6p1:direction>
+                          <d6p1:strProperty>LastModifiedTime</d6p1:strProperty>
+                        </d6p1:Sort>
+                      </d6p1:m_elements>
+                    </d7p1:Value>
+                  </d7p1:KeyValueOfstringanyType>
+                </d6p1:OverridePropertiesForSeralization>
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>Path:{sitecollectionurl} (EAPSolution={QueryString.solutioncompetency} OR EAPSolution={QueryString.solutionindustry} OR EAPSolution={QueryString.solutionset} OR EAPSolution={QueryString.solutionplatform} OR EAPSolution={QueryString.product}) ContentTypeId:0x0101009189AB5D3D2647B580F011DA2F356FB302* ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D03* ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5*</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+            <d4p1:Source>
+              <d4p1:Active>true</d4p1:Active>
+              <d4p1:AuthInfo xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+              <d4p1:BuiltIn>false</d4p1:BuiltIn>
+              <d4p1:ConnectionTimeout>15000</d4p1:ConnectionTimeout>
+              <d4p1:ConnectionUrlTemplate />
+              <d4p1:CreatedDate>{date}</d4p1:CreatedDate>
+              <d4p1:Description />
+              <d4p1:HasPermissionToReadAuthInfo>true</d4p1:HasPermissionToReadAuthInfo>
+              <d4p1:Id>{guid}</d4p1:Id>
+              <d4p1:IndexOffset>0</d4p1:IndexOffset>
+              <d4p1:LastModifiedDate>{date}</d4p1:LastModifiedDate>
+              <d4p1:MaximumResponseLength>64</d4p1:MaximumResponseLength>
+              <d4p1:Name>Product Solution Query</d4p1:Name>
+              <d4p1:Owner xmlns:d6p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+                <d6p1:DatabaseId>{guid:DatabaseId}</d6p1:DatabaseId>
+                <d6p1:DisableInheritance>false</d6p1:DisableInheritance>
+                <d6p1:SPFarmId>{guid:SPFarmId}</d6p1:SPFarmId>
+                <d6p1:SPSiteId>{guid:SPSiteId}</d6p1:SPSiteId>
+                <d6p1:SPSiteSubscriptionId>{guid:SPSiteSubscriptionId}</d6p1:SPSiteSubscriptionId>
+                <d6p1:SPWebId>{guid:SPWebId}</d6p1:SPWebId>
+              </d4p1:Owner>
+              <d4p1:ProviderId>{guid:Local SharePoint}</d4p1:ProviderId>
+              <d4p1:QueryTransform xmlns:d6p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08">
+                <d6p1:Id>{guid}</d6p1:Id>
+                <d6p1:IsSystem>false</d6p1:IsSystem>
+                <d6p1:OverridePropertiesForSeralization xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                <d6p1:OwnerId i:nil="true" />
+                <d6p1:ParentId>{guid}</d6p1:ParentId>
+                <d6p1:ParentType>Source</d6p1:ParentType>
+                <d6p1:QueryPropertyExpressions>
+                  <d6p1:MaxSize>2147483647</d6p1:MaxSize>
+                  <d6p1:OrderedItems />
+                </d6p1:QueryPropertyExpressions>
+                <d6p1:_IsReadOnly>true</d6p1:_IsReadOnly>
+                <d6p1:_QueryTemplate>(ContentTypeId:0x0101009189AB5D3D2647B580F011DA2F356FB302* OR ContentTypeId:0x01050087E353F177A3460E93CB400C40D3E93D03* OR ContentTypeId:0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4001A09367548F745F1A27CD5F00EA454E5*) AND {|owstaxIdSolution:{QueryString.product}} AND Path:{sitecollectionurl}</d6p1:_QueryTemplate>
+                <d6p1:_SourceId i:nil="true" />
+              </d4p1:QueryTransform>
+            </d4p1:Source>
+          </Sources>
+          <UserSegments xmlns:d4p1="http://www.microsoft.com/sharepoint/search/KnownTypes/2008/08" />
+        </SearchQueryConfigurationSettings>
+      </SearchQueryConfigurationSettings>
+      <SearchRankingModelConfigurationSettings>
+        <RankingModels xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      </SearchRankingModelConfigurationSettings>
+      <SearchSchemaConfigurationSettings>
+        <Aliases xmlns:d3p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+          <d3p1:LastItemName i:nil="true" />
+          <d3p1:dictionary xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </Aliases>
+        <CategoriesAndCrawledProperties xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        <CrawledProperties xmlns:d3p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration" i:nil="true" />
+        <ManagedProperties xmlns:d3p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+          <d3p1:LastItemName i:nil="true" />
+          <d3p1:dictionary xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <d3p1:TotalCount>0</d3p1:TotalCount>
+        </ManagedProperties>
+        <Mappings xmlns:d3p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+          <d3p1:LastItemName i:nil="true" />
+          <d3p1:dictionary xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </Mappings>
+        <Overrides xmlns:d3p1="http://schemas.datacontract.org/2004/07/Microsoft.Office.Server.Search.Administration">
+          <d3p1:LastItemName i:nil="true" />
+          <d3p1:dictionary xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </Overrides>
+      </SearchSchemaConfigurationSettings>
+    </SearchConfigurationSettings>
+  </pnp:SearchSettings>
+  <pnp:NavigationNodes>
+    <pnp:NavigationNode Title="All FUEL" Url="{sitecollectionurl}/pages/all-eap-search.aspx" Type="SearchNav" />
+    <pnp:NavigationNode Title="All News" Url="{sitecollectionurl}/pages/news.aspx" Type="SearchNav" />
+    <pnp:NavigationNode Title="All Events" Url="{sitecollectionurl}/Pages/events.aspx" Type="SearchNav" />
+    <pnp:NavigationNode Title="All Solutions" Url="{sitecollectionurl}/Pages/all-eap-solutions-search.aspx" Type="SearchNav" />
+    <pnp:NavigationNode Title="Fiserv People" Url="{sitecollectionurl}/Pages/all-eap-people-search.aspx" Type="SearchNav" />
+  </pnp:NavigationNodes>
+  <pnp:DeviceChannels>
+    <pnp:DeviceChannel Title="Mobile" ChannelAlias="Mobile" ChannelDescription="Mobile devices to target." UserAgentSubstrings="Android&#xD;iPad&#xD;iPod&#xD;iPhone&#xD;BlackBerry&#xD;IEMobile&#xD;WebOS&#xD;Windows Phone" ChannelIsActive="True" />
+  </pnp:DeviceChannels>
+  <pnp:ImageRenditions>
+    <pnp:ImageRendition Name="News Article Page" Width="717" Height="478" />
+    <pnp:ImageRendition Name="News Carousel" Width="623" Height="410" />
+    <pnp:ImageRendition Name="BU/CF/SubNav Landing Page" Width="729" Height="240" />
+  </pnp:ImageRenditions>
+  <pnp:PublishingPages>
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/locs" name="people-at-location" title="EAP People At Location Page" layout="Fiserv.EAP/EAPPeopleAtLocation.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/locs" name="default" title="EAP Location Listing Page" layout="Fiserv.EAP/EAPLocationListingPage.html" overwrite="true" isWelcomePage="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="all-eap-documents" title="All EAP Documents" layout="SearchResults" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="all-eap-people-search" title="All EAP People Search" layout="Fiserv.EAP/EAPPeopleSearchResults.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="all-eap-search" title="All EAP Search" layout="Fiserv.EAP/EAPSearchResults.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="all-eap-solutions-search" title="EAP Solution Article Search" layout="Fiserv.EAP/EAPSolutionArticleSearchResults.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="events" title="All Events" layout="Fiserv.EAP/EAPEventsLanding.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}" name="news" title="All News" layout="Fiserv.EAP/EAPNewsLanding.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/solutions" name="solution" title="EAP Solution" layout="Fiserv.EAP/EAPSolution.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/solutions" name="all-solution" title="EAP All Solution" layout="Fiserv.EAP/EAPSolutionAll.html" overwrite="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/solutions" name="default" title="EAP Solution Index" layout="Fiserv.EAP/EAPSolutionIndex.html" overwrite="true" isWelcomePage="true" />
+    <pnp:PublishingPage webUrl="{sitecollectionurl}/solutions" name="product" title="EAP Product" layout="Fiserv.EAP/EAPProductLandingPage.html" overwrite="true" />
+  </pnp:PublishingPages>
+</branding>

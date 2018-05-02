@@ -1,0 +1,1402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Webs>
+  <Web>
+    <Fields>
+      <!-- 
+          http://msdn.microsoft.com/en-us/library/office/aa979575.aspx
+          
+          Publishing HTML: Type="HTML" RichText="TRUE" RichTextMode="ThemeHtml" UnlimitedLengthInDocumentLibrary="TRUE"
+          Publishing Image: Type="Image" RichText="TRUE" RichTextMode="ThemeHtml"
+          HyperLink / Picture: Type="URL" Format="Hyperlink|Image"
+          Choice: Type="Choice" Format="Dropdown|RadioButtons" FillInChoice="TRUE|FALSE" <Default></Default><CHOICES><CHOICE>...</CHOICE></CHOICES>
+          MultiChoice: Type="MultiChoice" FillInChoice="TRUE|FALSE" <Default></Default><CHOICES><CHOICE>...</CHOICE></CHOICES>
+          DateTime: Type="DateTime" Format="DateOnly|DateTime" <Default>[Today]</Default>
+          Single Line of Text: Type="Text"
+          Multiple Lines of Text: Type="Note" NumLines="6"
+          Rich Text: Type="Note" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE|FALSE" NumLines="6" 
+          Number: Type="Number"
+          Person / Group: Type="User|UserMulti" List="UserInfo" UserSelectionMode="0|1" UserSelectionScope="0"
+          
+          0->g            8->o
+          1->h            9->p
+          2->i            a->q
+          3->j            b->r
+          4->k            c->s
+          5->l            d->t
+          6->m            e->u
+          7->n            f->v
+
+        -->
+
+     <Field ID='{04BE4570-B366-42FF-85E4-77C4EE42F7DB}'
+             Name='DisplayOrder'
+             DisplayName='Display Order'
+             Type='Number'
+             Hidden='False'
+             Group='PresNet Custom Columns'
+             Required='FALSE'
+             />
+            
+      <Field ID='{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}'
+             Name='EAPContentOwner'
+             DisplayName='EAP Content Owner'
+             Type='User'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             Required='TRUE'
+             />
+      
+         <Field ID='{2947852F-9311-4FA4-BE68-754C09EE23AB}'
+             Name='ExternalUse'
+             DisplayName='External Use'
+             Type='Boolean'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             />
+
+        <Field ID='{40397661-73A5-4AD7-A65B-27247457415B}'
+             Name='ReviewDate'
+             DisplayName='Review Date'
+             Type='DateTime'
+             Group='Fiserv Custom Columns'
+             Required='TRUE'>
+             <DefaultFormula>=[today]+365</DefaultFormula>
+      </Field>          
+      
+      
+       <Field ID='{458C840F-19B8-436F-89F7-F97DD2A6F477}'
+              Name='Sub-heading'
+              DisplayName='Sub-heading'
+              Type='Note'
+              Group='Fiserv Custom Columns'
+              NumLines='6'
+              RichText='False'
+             />
+
+      <Field ID='{A3193228-C362-43E3-86D4-20CF2A72B03C}'
+              Name='City'
+              DisplayName='City'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      
+      <Field ID="{05e06a23-fadd-4cfd-af70-2a5bc61dd0b6}"
+              Name='Graphic'
+              DisplayName='Graphic'
+              Type='URL'
+              Height='104'
+              Width='104'
+              Format='Image'
+              Group='Fiserv Custom Columns'
+             />
+      
+   
+      <Field ID="{4f424074-c570-4a28-a05b-47f332a19ff3}"
+             Name="BusinessUnit"
+             DisplayName="Business Unit"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:fiserv eap:Organization}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{b2a228ae-72e1-4b57-8caf-86bb34bf4761}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      
+      
+
+
+
+
+      
+     <Field ID='{04BE4570-B366-42FF-85E4-77C4EE42F7DB}'
+             Name='DisplayOrder'
+             DisplayName='Display Order'
+             Type='Number'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             Required='FALSE'
+             />
+
+      <Field ID='{78CFEF90-965B-4B74-A5F1-B3AE67FCE9EB}'
+             Name='EAPContentOwner'
+             DisplayName='EAP Content Owner'
+             Type='User'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             Required='TRUE'
+             />
+
+      <Field ID='{2947852F-9311-4FA4-BE68-754C09EE23AB}'
+             Name='ExternalUse'
+             DisplayName='External Use'
+             Type='Boolean'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             />
+
+      <Field ID='{40397661-73A5-4AD7-A65B-27247457415B}'
+             Name='ReviewDate'
+             DisplayName='Review Date'
+             Type='DateTime'
+             Group='Fiserv Custom Columns'
+             Required='TRUE'>
+             <DefaultFormula>=[today]+365</DefaultFormula>
+      </Field>
+      
+      <Field ID='{235EA79A-6EBA-4384-822D-D06785C4B4BA}'
+             Name='SchedulingStartDate'
+             DisplayName='Scheduling Start Date'
+             Type='DateTime'
+             Group='Fiserv Custom Columns'
+             Required='TRUE'>
+             <DefaultFormula>=[today]</DefaultFormula>
+      </Field>
+      
+      <Field ID='{458C840F-19B8-436F-89F7-F97DD2A6F477}'
+              Name='Sub-heading'
+              DisplayName='Sub-heading'
+              Type='Note'
+              Group='Fiserv Custom Columns'
+              NumLines='6'
+              RichText='False'
+             />
+
+      <Field ID='{A3193228-C362-43E3-86D4-20CF2A72B03C}'
+              Name='City'
+              DisplayName='City'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+     
+      <Field ID='{1507AE25-66CC-4CE0-BD58-84E38AE6595A}'
+              Name='State'
+              DisplayName='State / Province'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      
+      <Field ID='{A6367808-3E8C-492E-BADB-92BB829EBB38}'
+              Name='Country'
+              DisplayName='Country'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+     
+      <Field ID='{260C8F0C-A78C-4D3E-B5AA-B9987308836E}'
+              Name='PostalCode'
+              DisplayName='Postal Code'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{1c745951-0291-47a9-95ac-6b717048aba4}'
+              Name='LocationURL'
+              DisplayName='Location Landing Page URL'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{dcadc526-facb-4d35-a475-233859d5d866}'
+        Name='LocationID'
+        DisplayName='Location ID'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='4'
+        Required='True'
+             />
+
+      <Field ID="{05e06a23-fadd-4cfd-af70-2a5bc61dd0b6}"
+              Name='Graphic'
+              DisplayName='Graphic'
+              Type='URL'
+              Height='104'
+              Width='104'
+              Format='Image'
+              Group='Fiserv Custom Columns'
+             />
+
+      <Field ID="{36b39bb8-bad6-4e1b-b458-cca36cb3e407}"
+              Name='OpenInChildWindow'
+              DisplayName='Open in Child Window'
+              Type='Boolean'
+              Group='Fiserv Custom Columns'>
+        <default>0</default>
+      </Field>
+
+      <Field ID="{061f3e21-cb43-4321-83fd-b1b317c98e12}"
+        Name='IsFeaturedArticle'
+        DisplayName='Is Featured Article'
+        Type='Boolean'
+        Group='Fiserv Custom Columns'>
+        <default>0</default>
+      </Field>
+
+      <Field ID='{c771f26c-f36f-4f7c-9143-0ddfab90b52b}'
+              Name='Venue'
+              DisplayName='Venue'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+
+      <Field ID='{dd688484-3eeb-49e5-bc01-e2b6e9378c05}'
+              Name='EventLocation'
+              DisplayName='Event Location'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{5b94c668-ab2f-4858-9a3a-f17b652b85dc}'
+              Name='ContactName'
+              DisplayName='Contact Name'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{9817d38a-49c5-4562-8dd0-8ccfafa5d206}'
+              Name='ContactEmail'
+              DisplayName='Contact Email'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{99576223-93d8-4c63-8008-0927c6c398fa}'
+             Name='ProductContactEmail'
+             DisplayName='Product Contact Email'
+             Type='Text'
+             Group='Fiserv Custom Columns'
+             />
+
+      <Field ID='{efd9a349-9202-4c35-8c24-d20b1fb5811e}'
+        Name='EventDuration'
+        DisplayName='Event Duration'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+             />
+
+      <Field ID='{1f51ff4d-d1c9-44d0-8096-3a2848fad6bb}'
+        Name='SystemUpdateDescription'
+        DisplayName='System Update Description'
+        Type='Note'
+        NumLines='6'
+        RichText='TRUE'
+        RichTextMode='FullHtml'
+        Group='Fiserv Custom Columns'
+             />
+
+      <Field ID="{b2a228ae-72e1-4b57-8caf-86bb34bf4761}"
+         Name="BusinessUnitTaxHTField0"  DisplayName="BusinessUnit_0"
+         Required="FALSE"
+         Type="Note"
+         Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{4f424074-c570-4a28-a05b-47f332a19ff3}"
+             Name="BusinessUnit"
+             DisplayName="Business Unit"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:fiserv eap:Organization}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{b2a228ae-72e1-4b57-8caf-86bb34bf4761}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{5C620CC8-955E-433C-A181-0BB38CAC0EAE}"
+         Name="EAPDocumentTypeTaxHTField0"  DisplayName="EAPDocumentType_0"
+         Required="FALSE"
+         Type="Note"
+         Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{B7692B85-B587-40B8-B387-AC730E65C036}"
+             Name="EAPDocumentType"
+             DisplayName="EAP Document Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Document Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{5C620CC8-955E-433C-A181-0BB38CAC0EAE}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      
+      <Field ID="{15788B40-F83D-4B85-966F-FFD7038B5364}"
+         Name="EAPInternalEventTypeTaxHTField0"  DisplayName="EAPInternalEventType_0"
+         Required="FALSE"
+         Type="Note"
+         Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{BC017A3E-0149-42CA-B987-4F00D92BC208}"
+             Name="EAPInternalEventType"
+             DisplayName="EAP Internal Event Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Internal Event Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{15788B40-F83D-4B85-966F-FFD7038B5364}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+     
+      <Field ID="{15788B40-F83D-4B85-966F-FFD7038B5354}"
+        Name="EAPExternalEventTypeTaxHTField0"  DisplayName="EAPExternalEventType_0"
+        Required="FALSE"
+        Type="Note"
+        Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />  
+
+      <Field ID="{BC017A3E-0149-42CA-B987-4F00D92BC218}"
+             Name="EAPExternalEventType"
+             DisplayName="EAP External Event Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:External Event Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{15788B40-F83D-4B85-966F-FFD7038B5354}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{8834893A-8887-4FD6-85E8-A8F61BD256C8}"
+          Name="EAPLinkTypeTaxHTField0"  DisplayName="EAPLinkType_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{B0FCB3E3-E31B-4C89-B14C-EAC41B09E2B3}"
+             Name="EAPLinkType"
+             DisplayName="EAP Link Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Link Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{8834893A-8887-4FD6-85E8-A8F61BD256C8}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>    
+      
+      <Field ID="{A79839B2-1AB3-41C7-BA5F-4D5B867B2273}"
+      Name="EAPNewsTypeTaxHTField0"  DisplayName="EAPNewsType_0"
+      Required="FALSE"
+      Type="Note"
+      Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{3C98D59C-6A75-4D39-AA73-BE9BF2C260A3}"
+             Name="EAPNewsType"
+             DisplayName="EAP News Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:News Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{A79839B2-1AB3-41C7-BA5F-4D5B867B2273}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{6E9D7397-9C11-41DD-8988-44D262D5B275}"
+          Name="SolutionTaxHTField0"  DisplayName="Solution_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{17539830-B0EE-411B-B29C-2B819D18E89C}"
+             Name="Solution"
+             DisplayName="Solution"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{6E9D7397-9C11-41DD-8988-44D262D5B275}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{25BAC4C7-9BE7-4892-BC3E-0003E4CDC9BA}"
+        Name="CollateralTypeTaxHTField0"  DisplayName="CollateralType_0"
+        Required="FALSE"
+        Type="Note"
+        Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{406D3097-68DC-416E-98E7-AC5F5E211549}"
+             Name="CollateralType"
+             DisplayName="Collateral Type"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Collateral Type}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{25BAC4C7-9BE7-4892-BC3E-0003E4CDC9BA}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{5F99C1E1-074F-4B34-AAD5-1BE44FC5B297}"
+         Name="EAPSubjectTypeTaxHTField0"  DisplayName="EAPSubject_0"
+         Required="FALSE"
+         Type="Note"
+         Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{B209D0BE-F227-4424-A72A-B0C638265D2A}"
+             Name="EAPSubject"
+             DisplayName="EAP Subject"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Subject}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{5F99C1E1-074F-4B34-AAD5-1BE44FC5B297}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{5F99C1E1-074F-4B34-AAD5-1BE44FC5B298}"
+        Name="SolutionSubjectTypeTaxHTField0"  DisplayName="SolutionSubject_0"
+        Required="FALSE"
+        Type="Note"
+        Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{B209D0BE-F227-4424-A72A-B0C638265D2B}"
+             Name="SolutionSubject"
+             DisplayName="Solution Subject"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution Subject}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{5F99C1E1-074F-4B34-AAD5-1BE44FC5B298}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{AAAEBFFA-9437-4A23-9744-4991B055E185}"
+        Name="TargetBusinessUnitsTaxHTField0"  DisplayName="TargetBusinessUnits_0"
+        Required="FALSE"
+        Type="Note"
+        Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{A014DA0B-D9F1-4122-93EB-9707E6BC0FB8}"
+             Name="TargetBusinessUnits"
+             DisplayName="Target Organizations"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:fiserv eap:Organization}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{AAAEBFFA-9437-4A23-9744-4991B055E185}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{92992AE1-27EC-47E1-9C57-714ABB8AC008}"
+          Name="TargetLocationsTaxHTField0"  DisplayName="TargetLocations_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{5C8A158B-2AFC-45A9-818E-4297BD009F36}"
+             Name="TargetLocations"
+             DisplayName="Target Locations"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:People:Location}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{92992AE1-27EC-47E1-9C57-714ABB8AC008}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      <Field ID="{9a05c9b3-ff33-4d9c-b8c1-c296ee5e5ffc}"
+          Name="TargetTagTaxHTField0"  DisplayName="TargetTag_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{aebacf3e-211e-4548-84c8-4fbd3ee1fe45}"
+          Name="PromotedContent"  DisplayName="Promoted Content"
+          Required="FALSE"
+          Type="SummaryLinks"
+              RichText="TRUE"
+    RichTextMode="FullHtml"
+             Group="Fiserv Custom Columns"
+          Hidden="FALSE"  />
+
+      <Field ID="{340c490f-c019-49e2-abc1-1cf65b5b78ea}"
+             Name="TargetTag"
+             DisplayName="Target Tag - Organization"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:fiserv eap:Organization}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{a364ad82-7ee6-4391-8cc9-235923e5b5a4}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      <Field ID="{13dc392c-c186-430c-9e6d-8309ce929c81}"
+             Name="TargetTagLocation"
+             DisplayName="Target Tag - Location"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:People:Location}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{a364ad82-7ee6-4391-8cc9-235923e5b5a4}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{5E1CF3A0-02E6-43F9-9C76-9DAAE2EFCEC6}"
+        Name="SalesToolTaxHTField0"  DisplayName="SalesTool_0"
+        Required="FALSE"
+        Type="Note"
+        Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{836F7084-0499-4390-AA63-0E37DDA6F0FD}"
+             Name="SalesTool"
+             DisplayName="Sales Tool"
+             Group="Fiserv Custom Columns"
+             Required="TRUE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Sales Tool}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{5E1CF3A0-02E6-43F9-9C76-9DAAE2EFCEC6}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{D3299B17-E8B6-42EF-8E5E-483109BF9092}"
+          Name="TargetRoleTaxHTField0"  DisplayName="TargetRole_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{0E946D2B-BF4E-448A-9056-C7965064223C}"
+             Name="TargetRole"
+             DisplayName="Target Role"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Mult="TRUE"
+             Sortable="FALSE"
+             Type="TaxonomyFieldTypeMulti" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:fiserv eap:Role}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{D3299B17-E8B6-42EF-8E5E-483109BF9092}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{D9EC139B-C39E-4833-A861-14DB3A32C88E}"
+          Name="IndustryTaxHTField0"  DisplayName="Industry_0"
+          Required="FALSE"
+          Type="Note"
+          Hidden="TRUE" ShowInViewForms="FALSE" CanToggleHidden="TRUE" />
+
+      <Field ID="{4EFD10D1-A532-446A-87C6-51E6DA5DF823}"
+             Name="Industry"
+             DisplayName="Industry"
+             Group="Fiserv Custom Columns"
+             Required="FALSE"
+             Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Industry}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{D9EC139B-C39E-4833-A861-14DB3A32C88E}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      
+      <Field ID="{7dcf64a3-cf2a-4f0a-8c9e-d327793f9779}"
+            Name="NewsViewItemType"
+            DisplayName="News View Item Type"
+            Group="Fiserv Custom Columns"
+            Required="TRUE"
+            Type="Choice" >
+          <Default>Vertical</Default>
+        <CHOICES>
+          <CHOICE>Vertical</CHOICE>
+          <CHOICE>Horizontal</CHOICE>
+        </CHOICES>
+      </Field>
+
+      <Field ID="{cd62a5e4-4f20-4af5-af46-0ca46ecf0974}"
+            Name="EAPBorderColor"
+            DisplayName="EAP Border Color"
+            Group="Fiserv Custom Columns"
+            Required="TRUE"
+            Type="Choice" >
+        <Default>All Fiserv - Blue</Default>
+        <CHOICES>
+          <CHOICE>All Fiserv - Blue</CHOICE>
+          <CHOICE>BU CF - Black</CHOICE>
+          <CHOICE>Location - Gray</CHOICE>
+        </CHOICES>
+      </Field>
+      
+      <Field ID="{5483a07f-1cbd-4513-a8a6-286770712ad7}"
+            Name="IsVideo"
+            DisplayName="Is Video"
+            Group="Fiserv Custom Columns"
+            Type="Boolean" >
+        <default>0</default>
+      </Field>
+      <Field ID="{9d489156-2438-4136-961e-67ec93bd1c7c}"
+            Name="PromotedContentType"
+            DisplayName="Promoted Content Type"
+            Group="Fiserv Custom Columns"
+            Required="TRUE"
+            Type="Choice" >
+        <Default>Link</Default>
+        <CHOICES>
+          <CHOICE>Link</CHOICE>
+          <CHOICE>Document</CHOICE>
+          <CHOICE>Page</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID='{b06cf254-c95b-4d1b-906d-8b43c038b6f0}'
+              Name='PromotedURL'
+              DisplayName='Promoted URL'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{98e745be-1963-43dd-becf-8a84b56ec713}'
+        Name='PromotedDescription'
+        DisplayName='Promoted Description'
+        Type='Note'
+        NumLines='6'
+        Group='Fiserv Custom Columns'
+             />
+      <Field ID='{498e6dd9-7821-4092-926b-200462afaf40}'
+              Name='LocationMap'
+              DisplayName='Location Map'
+              Type='URL'
+              Group='Fiserv Custom Columns'
+              Format="Hyperlink"
+             />
+      <Field ID='{f18663ae-ccd5-458b-82c4-ed4676ffdcf6}'
+              Name='ProductDeliveryMethod'
+              DisplayName='Product Delivery Method'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{6EE4E9EE-150B-4381-BB5B-13F486CB0A0B}'
+             Name='ProductDirectoryContact'
+             DisplayName='Product Directory Contact'
+             Type='Text'
+             Hidden='False'
+             Group='Fiserv Custom Columns'
+             />
+      <Field ID='{75EBCB12-A61B-4B2A-BA0A-76A2926B0CD5}'
+              Name='ProductGeographicMarket'
+              DisplayName='Product Geographic Market'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{D5A637B5-4632-4EB0-8E3E-4880D9CD0947}'
+              Name='ProductLegacyName'
+              DisplayName='Product Legacy Name'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{76832A22-F9EB-4C7C-BB0B-C158DC652987}'
+              Name='ProductPlatform'
+              DisplayName='Product Platform'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{8CC9B985-EFB7-4B77-B88F-8CF09A54A020}'
+              Name='ProductTargetMarket'
+              DisplayName='Product Target Market'
+              Type="Note" 
+              NumLines="6"
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID='{74F6ED19-D330-4F02-A58E-4FAA51BCE35F}'
+              Name='ProductTechnology'
+              DisplayName='Product Technology'
+              Type="Note" 
+              NumLines="6"
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID="{BA6E23DA-3A9D-4B25-893A-7556D3087C33}"
+         Name="ProductValueProp"  
+         DisplayName="Product Value Prop"
+         Required="FALSE"
+         Type="Note"
+          />
+      <Field ID="{3c614746-706b-4a63-94e7-d562db5d16f9}"
+         Name="Solution_x0020_Description"
+         DisplayName="Solution Description"
+         Group="Fiserv Custom Columns"
+         Required="FALSE"
+         Type="Note"
+          />
+
+      <Field ID="{99E59F56-E65A-49A7-BC0B-C859A6FB27D7}"
+               Name="SolutionProductId"
+               DisplayName="Solution Product Id"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Product}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{BC0CAE44-C4D9-40DC-A1E2-534102B9DE9A}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{D5765D3A-58A0-47E4-A759-323D7927972E}"
+               Name="SolutionProduct"
+               DisplayName="Solution Product"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+                Mult="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Product}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{BDB45325-D5FA-4C9D-AE63-F73B96BE93EB}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{8ACC319C-834A-428F-9975-D97CBBB1B84B}"
+               Name="SolutionCompetencyId"
+               DisplayName="Solution Competency Id"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Competency}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{2AF2ABB1-0C85-49F4-BF32-6C8129EFC6A2}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{E258E17A-04DE-4622-9F40-9AB9C19B9E5A}"
+               Name="SolutionSetId"
+               DisplayName="Solution Set Id"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Solution Set}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{FCC37B00-CC0D-4BDF-A92D-1F9DEC4DD992}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{8A9F61CC-844F-48B8-879A-D0B9B5D799F5}"
+               Name="SolutionSet"
+               DisplayName="Solution Set"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Mult="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Solution Set}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{781D41B2-8086-49BB-B903-FD93034E49CA}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID="{D80AEE2B-AE68-4A00-A124-D64EB2D7B0CA}"
+               Name="SolutionIndustryId"
+               DisplayName="Solution Industry Id"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Industry}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{30EF9E58-A2F6-47CF-AFE4-56A08CED0851}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      <Field ID="{713c31bb-84dc-4f3c-b512-de4a29f105c8}"
+            Name="DataClassification"
+            DisplayName="Data Classification"
+            Group="Fiserv Custom Columns"
+            Required="TRUE"
+            Type="Choice" >
+        <Default>Confidential-Internal</Default>
+        <CHOICES>
+          <CHOICE>Confidential-Internal</CHOICE>
+          <CHOICE>Public</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID='{41CFF327-E2E0-4E59-AC95-34832B6DB545}'
+             Name='Active'
+             DisplayName='Active'
+             Type='Boolean'
+             Hidden='False'
+             Required='TRUE'
+             Group='Fiserv Custom Columns'
+             />
+      <Field ID='{d2985d90-2f16-4b22-af15-9425c7137c45}'
+              Name='eCRMProductID'
+              DisplayName='eCRM Product Id'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+
+      <Field ID="{B362941E-BCF7-402C-B7CB-60520D943AB7}"
+               Name="SolutionPlatformId"
+               DisplayName="Solution Platform Id"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Platform}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{4A40AD3F-826E-479D-B5B2-E1D392757390}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+      <Field ID="{44830777-9D05-44F7-B8F3-29D6529CB66B}"
+               Name="SolutionPlatform"
+               DisplayName="Solution Platform"
+               Group="Fiserv Custom Columns"
+               Required="TRUE"
+               Mult="TRUE"
+               Type="TaxonomyFieldType" ShowField="Term1033" EnforceUniqueValues="FALSE" >
+        <Customization>
+          <ArrayOfProperty>
+            <Property>
+              <Name>SspId</Name>
+              <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{sitecollectiontermstoreid}</Value>
+            </Property>
+            <Property>
+              <Name>TermSetId</Name>
+              <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:{sitecollectiontermgroupname}:Solution}</Value>
+            </Property>
+            <Property>
+              <Name>AnchorId</Name>
+              <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{anchorid:{sitecollectiontermgroupname}:Solution:Platform}</Value>
+            </Property>
+            <Property>
+              <Name>Open</Name>
+              <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+            </Property>
+            <Property>
+              <Name>TextField</Name>
+              <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{31483D53-B2D4-4F18-9F0C-079D777F60D3}</Value>
+            </Property>
+          </ArrayOfProperty>
+        </Customization>
+      </Field>
+
+      <Field ID='{391DD256-54E3-4FF5-82DF-9427BC278BE5}'
+              Name='PlatformDirectoryContact'
+              DisplayName='Platform Directory Contact'
+              Type='Text'
+              Group='Fiserv Custom Columns'
+             />
+      <Field ID="{76CD90CD-4433-413D-A8FA-30D4CA3E2C2A}"
+            Name="PollType"
+            DisplayName="Poll Type"
+            Group="Fiserv Custom Columns"
+            Required="TRUE"
+            Type="Choice" >
+        <Default>Poll</Default>
+        <CHOICES>
+          <CHOICE>Poll</CHOICE>
+          <CHOICE>Quiz</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID='{F42E9BDB-6B2E-4D3E-8A37-07B18BD33178}'
+        Name='PollQuestion'
+        DisplayName='Question'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='100'
+             />
+      <Field ID='{B7FEF5FB-1BED-455C-80E5-35C569C6EFA9}'
+        Name='PollAnswer1'
+        DisplayName='Answer 1'
+        Type='Text'
+        MaxLength='30'
+        Group='Fiserv Custom Columns'
+             />
+      <Field ID='{5D9A073A-7A73-4B03-B3EE-ADB49915DA7B}'
+        Name='PollAnswer2'
+        DisplayName='Answer 2'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='30'
+             />
+      <Field ID='{B415B4E9-4FEA-4F9D-9ED2-7276C8F27E20}'
+        Name='PollAnswer3'
+        DisplayName='Answer 3'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='30'
+             />
+      <Field ID='{8B86EAA0-FE55-42FB-AC7A-2336EF44DC1D}'
+        Name='PollAnswer4'
+        DisplayName='Answer 4'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='30'
+             />
+      <Field ID='{65D83C9F-5DB5-447B-A375-47F9C0BF8694}'
+        Name='PollAnswer5'
+        DisplayName='Answer 5'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+             />
+      <Field ID='{213451F5-BD7C-43EA-A4DF-F9424255C3C4}'
+        Name='PollAnswer6'
+        DisplayName='Answer 6'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='30'
+             />
+      <Field ID="{818D5537-D922-449A-A249-C52D2537BD27}"
+            Name='PollCorrectAnswer'
+            DisplayName='Correct Answer'
+            Group="Fiserv Custom Columns"
+            Required="FALSE"
+            Type="Choice" >
+        <Default>1</Default>
+        <CHOICES>
+          <CHOICE>1</CHOICE>
+          <CHOICE>2</CHOICE>
+          <CHOICE>3</CHOICE>
+          <CHOICE>4</CHOICE>
+          <CHOICE>5</CHOICE>
+          <CHOICE>6</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID='{A85502E7-B562-49E6-A175-6381B7162115}'
+        Name='UserKey'
+        DisplayName='User Key'
+        Type='Text'
+        Group='Fiserv Custom Columns'
+        MaxLength='100'
+             />
+      <Field ID='{3F099F38-E223-4C13-9266-ADEE91B0E4F9}'
+        Name='PollId'
+        DisplayName='Poll Id'
+        Type='Number'
+        Group='Fiserv Custom Columns'
+             />
+      <Field ID='{DED13694-727A-4B1A-BF69-0E5F325AEC7E}'
+        Name='AnswerId'
+        DisplayName='Answer Id'
+        Type='Number'
+        Group='Fiserv Custom Columns'
+             />
+    </Fields>
+  </Web>
+</Webs>
